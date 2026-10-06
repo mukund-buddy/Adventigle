@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventigle — Minecraft PE videos, UI &amp; texture packs</title>
+  <meta name="description" content="Adventigle — Minecraft PE &amp; Bedrock videos, UI &amp; texture packs, tips, free downloads and updates by Mukund (@notgamingplayz).">
+  <meta name="theme-color" content="#f4f4f0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23ff90e8'/%3E%3Ctext x='50' y='68' font-size='48' text-anchor='middle'%3E%F0%9F%A6%85%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======= HEADER ======= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="index.html" aria-label="Adventigle home">Adventigle</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="#videos">Videos</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="langBtn" class="btn btn--ghost btn--sm" type="button" title="Change language">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="lang-label">Language</span>
+        </button>
+        <button id="navToggle" class="btn btn--ghost btn--sm nav-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+      </div>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Primary mobile" hidden>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#videos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ======= HERO ======= -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Minecraft PE &amp; Bedrock</p>
+          <h1>Make your Minecraft PE look absolutely <em>next-level</em>.</h1>
+          <p class="lead">Custom UI packs, texture packs, building shortcuts and one-click fixes for Bedrock — every download and every install step shown in a short video. Always free, no sign-up.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" id="heroCta" href="#videos">Browse all videos</a>
+            <a class="btn btn--ghost" href="https://www.youtube.com/@notgamingplayz" target="_blank" rel="noopener">Watch on YouTube</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><span class="n" id="heroCount">—</span><span class="l">Videos</span></div>
+            <div class="hero-stat"><span class="n">100%</span><span class="l">Free downloads</span></div>
+            <div class="hero-stat"><span class="n">Weekly</span><span class="l">New uploads</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="hero-art__badge">Latest packs</span>
+          <div class="shot shot--1"><img alt="" id="heroShot1"></div>
+          <div class="shot shot--2"><img alt="" id="heroShot2"></div>
+          <div class="shot shot--3"><img alt="" id="heroShot3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= LATEST VIDEOS ======= -->
+    <section class="section" id="videos">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest videos</h2>
+        </div>
+        <div class="video-grid" id="videoGrid"><div class="loader"><div class="box"></div></div></div>
+      </div>
+    </section>
+
+    <!-- ======= ASK A QUESTION ======= -->
+    <section class="section">
+      <div class="container">
+        <div class="card help-cta">
+          <div class="help-copy">
+            <h2>Have a question?</h2>
+            <p class="muted">Ask about any video — or something else Minecraft PE related — and I'll reply to you by email. Questions are sent straight to me.</p>
+          </div>
+          <form id="question-form" class="help-form" novalidate>
+            <input type="hidden" name="video_id" value="general">
+            <div class="field">
+              <label for="q-email">Your email <span aria-hidden="true">*</span></label>
+              <input id="q-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+            </div>
+            <div class="field">
+              <label for="q-name">Name <span class="muted small">(optional)</span></label>
+              <input id="q-name" name="name" type="text" maxlength="80" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="q-body">Your question <span aria-hidden="true">*</span></label>
+              <textarea id="q-body" name="body" required maxlength="2000" placeholder="Ask anything about Adventigle content…"></textarea>
+            </div>
+            <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+            <button class="btn btn--primary" type="submit">Send question</button>
+            <p id="q-status" class="form-status small" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="wordmark">Adventigle</span>
+        <p class="small muted">Minecraft PE videos, UI &amp; texture packs, tips and free downloads by Mukund.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#" id="footerLang">Language</a></li>
+          <li><a href="https://www.youtube.com/@notgamingplayz" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p class="small muted">© 2026 Adventigle. Visual system adapted from the Gumroad open-source design system (MIT).</p>
+    </div>
+  </footer>
+
+  <!-- ======= LANGUAGE MODAL (first visit) ======= -->
+  <div class="modal-scrim" id="langModal" role="dialog" aria-modal="true" aria-labelledby="langModalTitle">
+    <div class="modal">
+      <div class="modal-head">
+        <span class="modal-title" id="langModalTitle" data-i18n="modal_title">Pick your language</span>
+        <button class="close-btn" type="button" aria-label="Close language picker">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="muted small" data-i18n="modal_sub">You can change this anytime from the menu above.</p>
+        <div class="lang-grid" id="langGrid"></div>
+        <p class="small muted" style="margin-top:1.1rem;" data-i18n="modal_gt_note">💡 Guides and reviews are auto-translated by Google Translate when you pick a language.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="google_translate_element" style="display:none" aria-hidden="true"></div>
+
+  <script src="assets/js/app.js"></script>
+  <script>
+    window.googleTranslateElementInit = function () {
+      if (typeof google === "undefined" || !google.translate) return;
+      new google.translate.TranslateElement({
+        pageLanguage: "en",
+        includedLanguages: "en,hi,es,fr,de,ja,pt,id,ru,ar",
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, "google_translate_element");
+    };
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</body>
+</html>
