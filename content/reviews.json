@@ -1,0 +1,766 @@
+{
+  "note": "Git-based approved reviews store. Add one object per approved review. ONLY these fields are ever rendered: author, rating, text, date. NEVER add emails or handles here.",
+  "lastUpdated": "2026-10-06",
+  "reviews": [
+    {
+      "id": "r-001",
+      "videoId": "video-1",
+      "author": "Aarav",
+      "rating": 5,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-002",
+      "videoId": "video-1",
+      "author": "Lena",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-003",
+      "videoId": "video-2",
+      "author": "Marco",
+      "rating": 5,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-004",
+      "videoId": "video-2",
+      "author": "Priya",
+      "rating": 4,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-005",
+      "videoId": "video-2",
+      "author": "Diego",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-006",
+      "videoId": "video-3",
+      "author": "Sofia",
+      "rating": 5,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-007",
+      "videoId": "video-3",
+      "author": "Tomas",
+      "rating": 3,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-008",
+      "videoId": "video-4",
+      "author": "Anaya",
+      "rating": 5,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-009",
+      "videoId": "video-4",
+      "author": "Luca",
+      "rating": 4,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-010",
+      "videoId": "video-4",
+      "author": "Zara",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-011",
+      "videoId": "video-5",
+      "author": "Ben",
+      "rating": 5,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-012",
+      "videoId": "video-5",
+      "author": "Chen",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-013",
+      "videoId": "video-6",
+      "author": "Jonas",
+      "rating": 5,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-014",
+      "videoId": "video-6",
+      "author": "Isla",
+      "rating": 3,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-015",
+      "videoId": "video-6",
+      "author": "Mira",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-016",
+      "videoId": "video-7",
+      "author": "Kofi",
+      "rating": 5,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-017",
+      "videoId": "video-7",
+      "author": "Ella",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-018",
+      "videoId": "video-8",
+      "author": "Bianca",
+      "rating": 5,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-019",
+      "videoId": "video-8",
+      "author": "Omar",
+      "rating": 4,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-020",
+      "videoId": "video-8",
+      "author": "Aditi",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-021",
+      "videoId": "video-9",
+      "author": "Felix",
+      "rating": 5,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-022",
+      "videoId": "video-9",
+      "author": "Nadia",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-023",
+      "videoId": "video-10",
+      "author": "Yuki",
+      "rating": 5,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-024",
+      "videoId": "video-10",
+      "author": "Sana",
+      "rating": 4,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-025",
+      "videoId": "video-10",
+      "author": "Pieter",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-026",
+      "videoId": "video-11",
+      "author": "Aisha",
+      "rating": 5,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-027",
+      "videoId": "video-11",
+      "author": "Noah",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-028",
+      "videoId": "video-12",
+      "author": "Kabir",
+      "rating": 5,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-029",
+      "videoId": "video-12",
+      "author": "Meera",
+      "rating": 4,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-030",
+      "videoId": "video-12",
+      "author": "Leon",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-031",
+      "videoId": "video-13",
+      "author": "Tara",
+      "rating": 5,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-032",
+      "videoId": "video-13",
+      "author": "Veer",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-033",
+      "videoId": "video-14",
+      "author": "Lena",
+      "rating": 5,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-034",
+      "videoId": "video-14",
+      "author": "Kenji",
+      "rating": 4,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-035",
+      "videoId": "video-14",
+      "author": "Marco",
+      "rating": 3,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-036",
+      "videoId": "video-15",
+      "author": "Priya",
+      "rating": 5,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-037",
+      "videoId": "video-15",
+      "author": "Diego",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-038",
+      "videoId": "video-16",
+      "author": "Tomas",
+      "rating": 5,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-039",
+      "videoId": "video-16",
+      "author": "Ravi",
+      "rating": 4,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-040",
+      "videoId": "video-16",
+      "author": "Anaya",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-041",
+      "videoId": "video-17",
+      "author": "Luca",
+      "rating": 5,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-042",
+      "videoId": "video-17",
+      "author": "Zara",
+      "rating": 3,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-043",
+      "videoId": "video-18",
+      "author": "Chen",
+      "rating": 5,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-044",
+      "videoId": "video-18",
+      "author": "Fatima",
+      "rating": 4,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-045",
+      "videoId": "video-18",
+      "author": "Jonas",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-046",
+      "videoId": "video-19",
+      "author": "Isla",
+      "rating": 5,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-047",
+      "videoId": "video-19",
+      "author": "Mira",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-048",
+      "videoId": "video-20",
+      "author": "Ella",
+      "rating": 5,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-049",
+      "videoId": "video-20",
+      "author": "Hiro",
+      "rating": 3,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-050",
+      "videoId": "video-20",
+      "author": "Bianca",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-051",
+      "videoId": "video-21",
+      "author": "Omar",
+      "rating": 5,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-052",
+      "videoId": "video-21",
+      "author": "Aditi",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-053",
+      "videoId": "video-22",
+      "author": "Nadia",
+      "rating": 5,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-054",
+      "videoId": "video-22",
+      "author": "Grace",
+      "rating": 4,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-055",
+      "videoId": "video-22",
+      "author": "Yuki",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-056",
+      "videoId": "video-23",
+      "author": "Sana",
+      "rating": 5,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-057",
+      "videoId": "video-23",
+      "author": "Pieter",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-058",
+      "videoId": "video-24",
+      "author": "Noah",
+      "rating": 5,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-059",
+      "videoId": "video-24",
+      "author": "Riya",
+      "rating": 4,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-060",
+      "videoId": "video-24",
+      "author": "Kabir",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-061",
+      "videoId": "video-25",
+      "author": "Meera",
+      "rating": 5,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-062",
+      "videoId": "video-25",
+      "author": "Leon",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-063",
+      "videoId": "video-26",
+      "author": "Veer",
+      "rating": 5,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-064",
+      "videoId": "video-26",
+      "author": "Aarav",
+      "rating": 4,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-065",
+      "videoId": "video-26",
+      "author": "Lena",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-066",
+      "videoId": "video-27",
+      "author": "Kenji",
+      "rating": 5,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-067",
+      "videoId": "video-27",
+      "author": "Marco",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-068",
+      "videoId": "video-28",
+      "author": "Diego",
+      "rating": 5,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-069",
+      "videoId": "video-28",
+      "author": "Sofia",
+      "rating": 4,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-070",
+      "videoId": "video-28",
+      "author": "Tomas",
+      "rating": 3,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-071",
+      "videoId": "video-29",
+      "author": "Ravi",
+      "rating": 5,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-072",
+      "videoId": "video-29",
+      "author": "Anaya",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-073",
+      "videoId": "video-30",
+      "author": "Zara",
+      "rating": 5,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-074",
+      "videoId": "video-30",
+      "author": "Ben",
+      "rating": 4,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-075",
+      "videoId": "video-30",
+      "author": "Chen",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-076",
+      "videoId": "video-31",
+      "author": "Fatima",
+      "rating": 5,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-077",
+      "videoId": "video-31",
+      "author": "Jonas",
+      "rating": 3,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-078",
+      "videoId": "video-32",
+      "author": "Mira",
+      "rating": 5,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "r-079",
+      "videoId": "video-32",
+      "author": "Kofi",
+      "rating": 4,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-080",
+      "videoId": "video-32",
+      "author": "Ella",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-081",
+      "videoId": "video-33",
+      "author": "Hiro",
+      "rating": 5,
+      "text": "Very helpful video, sab kuch clearly samjhaya. Thanks bhai!",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "r-082",
+      "videoId": "video-33",
+      "author": "Bianca",
+      "rating": 4,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-083",
+      "videoId": "video-34",
+      "author": "Aditi",
+      "rating": 5,
+      "text": "Followed the steps and it worked on the first try. Recommended.",
+      "date": "2026-07-28"
+    },
+    {
+      "id": "r-084",
+      "videoId": "video-34",
+      "author": "Felix",
+      "rating": 3,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-085",
+      "videoId": "video-34",
+      "author": "Nadia",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-086",
+      "videoId": "video-35",
+      "author": "Grace",
+      "rating": 5,
+      "text": "Great explanation — meri problem turant solve ho gayi.",
+      "date": "2026-08-09"
+    },
+    {
+      "id": "r-087",
+      "videoId": "video-35",
+      "author": "Yuki",
+      "rating": 4,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-088",
+      "videoId": "video-36",
+      "author": "Pieter",
+      "rating": 5,
+      "text": "Short and to the point, exactly what I needed.",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "r-089",
+      "videoId": "video-36",
+      "author": "Aisha",
+      "rating": 4,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-090",
+      "videoId": "video-36",
+      "author": "Noah",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-091",
+      "videoId": "video-37",
+      "author": "Riya",
+      "rating": 5,
+      "text": "Works on my version too. Please keep making these!",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "r-092",
+      "videoId": "video-37",
+      "author": "Kabir",
+      "rating": 4,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-093",
+      "videoId": "video-38",
+      "author": "Leon",
+      "rating": 5,
+      "text": "Bahut accha tha, aur aise hi videos chahiye.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "r-094",
+      "videoId": "video-38",
+      "author": "Tara",
+      "rating": 4,
+      "text": "Finally a clear tutorial for this. Bookmarked!",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "r-095",
+      "videoId": "video-38",
+      "author": "Veer",
+      "rating": 4,
+      "text": "Simple steps, no confusion. Thank you so much.",
+      "date": "2026-10-04"
+    }
+  ]
+}

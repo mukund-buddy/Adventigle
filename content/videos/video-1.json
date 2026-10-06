@@ -1,0 +1,52 @@
+{
+  "id": "video-1",
+  "slug": "resource-pack-import-nahi-ho-raha-uuid-generator-se-fix",
+  "youtubeId": "Mvx-Y4RI-8Q",
+  "title": "Resource Pack Import Nahi Ho Raha? UUID Generator Se Fix Karo — Minecraft Bedrock",
+  "topic": "Minecraft Bedrock Edition mein Resource Pack ya Behavior Pack banate waqt sabse zaruri cheez hoti hai — UUID (Universally Unique Identifier).",
+  "description": "Minecraft Bedrock Edition mein Resource Pack ya Behavior Pack banate waqt sabse zaruri cheez hoti hai — UUID (Universally Unique Identifier). Agar aapka pack import nahi ho raha hai, toh most likely UUID galat hai ya duplicate hai. Is video mein main aapko dikhaunga ki free UUID generator tool se 1 second mein kaise generate kare aur manifest.json mein kaise use kare.",
+  "category": "ui-packs",
+  "categoryLabel": "UI Packs",
+  "keywords": [
+    "minecraft",
+    "minecraftbedrock",
+    "mcpe",
+    "uuidgenerator",
+    "resourcepack",
+    "behaviorpack"
+  ],
+  "duration": "0m 50s",
+  "views": "61",
+  "date": "2026-09-18",
+  "watchUrl": "https://www.youtube.com/watch?v=Mvx-Y4RI-8Q",
+  "downloads": [
+    {
+      "name": "Open link",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://not-gaming-playz.pages.dev/uuid-generator"
+    },
+    {
+      "name": "Android (Google Play)",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver"
+    },
+    {
+      "name": "Android (APK Direct)",
+      "type": "HTML",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://www.zdevs.ru/en/za/apk.html"
+    },
+    {
+      "name": "iOS (App Store)",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://apps.apple.com/app/zarchiver/id6504976055"
+    }
+  ]
+}

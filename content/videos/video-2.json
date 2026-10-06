@@ -1,0 +1,37 @@
+{
+  "id": "video-2",
+  "slug": "easy-to-build",
+  "youtubeId": "ejJL-hDMBt8",
+  "title": "Easy to build",
+  "topic": "Minecraft Bedrock mein perfect circle aur alag-alag shapes banana ab aur bhi easy ho gaya!",
+  "description": "Minecraft Bedrock mein perfect circle aur alag-alag shapes banana ab aur bhi easy ho gaya! Is video mein main tumhe dikhaunga ki website se apni pasand ka shape kaise banate hain, uska .mcstructure file kaise download karte hain, aur phir HoloPrint ki help se use Minecraft mein hologram ke roop mein kaise use karte hain.",
+  "category": "texture-packs",
+  "categoryLabel": "Texture Packs",
+  "keywords": [
+    "minecraft",
+    "minecraftbedrock",
+    "minecraftbuilding",
+    "minecrafthologram",
+    "minecrafttips"
+  ],
+  "duration": "3m 8s",
+  "views": "23",
+  "date": "2026-09-05",
+  "watchUrl": "https://www.youtube.com/watch?v=ejJL-hDMBt8",
+  "downloads": [
+    {
+      "name": "Open link",
+      "type": "HTML",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://not-gaming-playz.pages.dev/resources.html?id=shape-generator"
+    },
+    {
+      "name": "Open link",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://holoprint-mc.github.io/"
+    }
+  ]
+}

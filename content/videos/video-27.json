@@ -1,0 +1,38 @@
+{
+  "id": "video-27",
+  "slug": "how-to-export-minecraft-pe-worlds-on-android-fix-data",
+  "youtubeId": "3sw1KETzFUo",
+  "title": "How to Export Minecraft PE Worlds on Android | Fix Data Folder Hidden (ZArchiver & Shizuku)",
+  "topic": "Export Minecraft PE World to Android (No PC Needed)",
+  "description": "Export Minecraft PE World to Android (No PC Needed) Welcome to the video! Do you want to save your amazing Minecraft world, back it up, or send it to a friend? Because of new Android security rules, your phone hides the Minecraft folder. But don't worry! Today, I will teach you a super easy trick to find and copy your worlds using two free apps. Follow these simple steps like a secret mission! ️‍ ️",
+  "category": "ui-packs",
+  "categoryLabel": "UI Packs",
+  "keywords": [
+    "minecraft",
+    "minecraftpe",
+    "zarchiver",
+    "shizuku",
+    "minecrafttutorial",
+    "androidtricks"
+  ],
+  "duration": "2m 52s",
+  "views": "524",
+  "date": "2026-03-08",
+  "watchUrl": "https://www.youtube.com/watch?v=3sw1KETzFUo",
+  "downloads": [
+    {
+      "name": "📱 ZArchiver",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver"
+    },
+    {
+      "name": "📱 Shizuku",
+      "type": "LINK",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api"
+    }
+  ]
+}
