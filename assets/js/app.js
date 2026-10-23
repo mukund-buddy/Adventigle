@@ -1168,11 +1168,51 @@ function initVideoPage() {
   window.onPageLanguageChanged = function () { if (currentVideo) renderReviews(); };
 }
 
+/* ---------- 9b. KEYBOARD SHORTCUTS (invisible — documented only in shortcuts.md) ---------- */
+function initShortcuts() {
+  document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey || e.altKey || e.metaKey) return;
+    var t = e.target;
+    var tag = (t && t.tagName || "").toLowerCase();
+    var typing = !!(t && (tag === "input" || tag === "textarea" || tag === "select" || t.isContentEditable));
+    var modal = document.getElementById("langModal");
+    var modalOpen = !!(modal && modal.classList.contains("is-open"));
+
+    if (modalOpen) {
+      if (/^[0-9]$/.test(e.key)) {
+        var idx = e.key === "0" ? 9 : Number(e.key) - 1;
+        var choices = $all(".lang-choice", modal);
+        if (choices[idx]) { e.preventDefault(); choices[idx].click(); }
+      }
+      return; // other keys normal (Escape close handled in initLang)
+    }
+
+    if (typing || e.repeat) return;
+
+    if (e.key === "/") {
+      var search = document.getElementById("videoSearch");
+      if (search && document.activeElement !== search) {
+        e.preventDefault();
+        search.focus();
+      }
+      return;
+    }
+
+    if (e.key === "l" || e.key === "L") {
+      if (modal) {
+        e.preventDefault();
+        modal.classList.add("is-open");
+      }
+    }
+  });
+}
+
 /* ---------- 10. BOOT ---------- */
 document.addEventListener("DOMContentLoaded", function () {
   initLang();
   initUiExtras();
   initIndexPage();
   initVideoPage();
+  initShortcuts();
   initReveal();
 });
