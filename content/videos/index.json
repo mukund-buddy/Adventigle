@@ -1,0 +1,982 @@
+{
+  "channel": "NotGamingPlayz",
+  "handle": "@notgamingplayz",
+  "creator": "Mukund",
+  "updatedAt": "2026-10-23",
+  "videos": [
+    {
+      "id": "video-1",
+      "slug": "resource-pack-import-nahi-ho-raha-uuid-generator-se-fix",
+      "youtubeId": "Mvx-Y4RI-8Q",
+      "title": "Resource Pack Import Nahi Ho Raha? UUID Generator Se Fix Karo — Minecraft Bedrock",
+      "topic": "Minecraft Bedrock mein Resource Pack ya Behavior Pack import nahi ho raha?",
+      "description": "Minecraft Bedrock mein Resource Pack ya Behavior Pack import nahi ho raha? Issue ka ek possible reason manifest.json mein missing, invalid ya duplicate UUID ho sakta hai. UUID har pack/module ki unique identity hoti hai; isliye sirf pack ka naam badal dena ya kisi doosre pack ka UUID copy karna reliable fix nahi hai. Is short tutorial mein UUID Generator se identifiers banana aur unhe manifest mein sahi jagah rakhna dikhaya gaya hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 50s",
+      "views": "61",
+      "date": "2026-09-18",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "UUID Generator",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/uuid-generator",
+          "note": ""
+        },
+        {
+          "name": "ZArchiver (Android)",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver",
+          "note": "phone par pack files aur folders manage karne ke liye."
+        }
+      ]
+    },
+    {
+      "id": "video-2",
+      "slug": "easy-to-build-perfect-circles-shapes-in-minecraft-bedrock",
+      "youtubeId": "ejJL-hDMBt8",
+      "title": "Easy to build — Perfect Circles & Shapes in Minecraft Bedrock",
+      "topic": "Minecraft Bedrock mein perfect circle, hollow shape ya doosra custom structure banana hai?",
+      "description": "Minecraft Bedrock mein perfect circle, hollow shape ya doosra custom structure banana hai? Is tutorial mein shape ko manually block-by-block design karne ke bajaye Shape Generator se dimensions aur block type choose karna, phir generated .mcstructure file ko HoloPrint ke through Minecraft mein hologram-style building guide ki tarah use karna cover kiya gaya hai. Yeh approach symmetric builds aur planned structures ke liye useful ho sakti hai.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "3m 8s",
+      "views": "23",
+      "date": "2026-09-05",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Shape Generator",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=shape-generator",
+          "note": ""
+        },
+        {
+          "name": "HoloPrint",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://holoprint-mc.github.io/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-3",
+      "slug": "meri-website-ka-full-tour-videos-resources-more",
+      "youtubeId": "CH1Uh79E6As",
+      "title": "Meri Website Ka Full Tour! | Videos, Resources & More",
+      "topic": "Is video mein meri Not Gaming Playz website ka walkthrough hai.",
+      "description": "Is video mein meri Not Gaming Playz website ka walkthrough hai. Agar aapko videos, Minecraft resources, useful tools ya website updates dhoondhne hain, toh tour se samajh sakte hain ki content ko kis section mein rakha gaya hai. Website ka purpose channel ke videos aur related resources ko ek jagah organised form mein rakhna hai.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "2m 39s",
+      "views": "20",
+      "date": "2026-08-25",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-4",
+      "slug": "resource-pack-import-failed-minecraft-pe-1-21-fix-in-1-min",
+      "youtubeId": "cVnznOL55q4",
+      "title": "Resource Pack Import Failed — Minecraft PE 1.21+ Fix in 1 Min",
+      "topic": "Minecraft PE/Bedrock mein “Resource Pack Import Failed” error aa raha hai?",
+      "description": "Minecraft PE/Bedrock mein “Resource Pack Import Failed” error aa raha hai? Is tutorial ka focus manifest.json par hai — yeh file Minecraft ko pack ki identity, version aur module information batati hai. Agar file missing ho, invalid JSON ho, required fields galat hon ya pack ka folder structure incorrect ho, toh import fail ho sakta hai. Video mein manifest manually create/add karne aur online Manifest Generator use karne ka approach dikhaya gaya hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 44s",
+      "views": "689",
+      "date": "2026-08-09",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Manifest Generator",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://antigleforge.pages.dev/tools/manifest-generator",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-5",
+      "slug": "photo-se-minecraft-skin-kaise-banaye-100-free",
+      "youtubeId": "HJNmwsrQEWA",
+      "title": "Photo Se Minecraft Skin Kaise Banaye? (100% FREE)",
+      "topic": "Apni photo ya image ko Minecraft skin mein badalna hai?",
+      "description": "Apni photo ya image ko Minecraft skin mein badalna hai? Is video mein AI-based Skin Generator ka basic workflow dikhaya gaya hai: image upload karna, tool se skin generate karwana, result review karna aur file download karke Minecraft mein import karna. Generated skin source image se inspired result de sakti hai, lekin har facial detail ya colour exactly match ho, iski guarantee nahi hoti.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "0m 42s",
+      "views": "905",
+      "date": "2026-08-04",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Skin Generator",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=entropy-drop-skin-generator",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-6",
+      "slug": "own-professional-website-with-ai-no-coding-just-15-minutes",
+      "youtubeId": "kpdVvvglzSo",
+      "title": "Own Professional Website with AI (No Coding) | Just 15 Minutes",
+      "topic": "AI ki help se apni website banana chahte hain, lekin poora project zero se code nahi karna?",
+      "description": "AI ki help se apni website banana chahte hain, lekin poora project zero se code nahi karna? Is video mein ek ready-made website project ko apne channel/brand ke hisaab se customize karne aur GitHub Pages par publish karne ka workflow dikhaya gaya hai. Is approach mein har webpage ko manually edit karne ke bajaye kuch data/configuration files update ki jaati hain, phir AI assistant ko project README aur files samjha kar changes karwaye ja sakte hain.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "3m 6s",
+      "views": "7",
+      "date": "2026-07-30",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Gemini API Key / Google AI Studio",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://aistudio.google.com/apikey",
+          "note": ""
+        },
+        {
+          "name": "Website Files",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=free-ai-website-files",
+          "note": ""
+        },
+        {
+          "name": "GitHub Repository",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://github.com/mukund-buddy/Your-Channel",
+          "note": ""
+        },
+        {
+          "name": "Website Preview",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://manis.netlify.app/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-7",
+      "slug": "the-scariest-start-screen-in-minecraft-pe-fnaf-2",
+      "youtubeId": "EZoUnzcTlEI",
+      "title": "The Scariest Start Screen in Minecraft PE (FNAF 2)",
+      "topic": "Minecraft PE ke main menu ko Five Nights at Freddy’s 2 (FNAF 2) theme dene wala UI/texture pack is video mein showcase kiya gaya hai.",
+      "description": "Minecraft PE ke main menu ko Five Nights at Freddy’s 2 (FNAF 2) theme dene wala UI/texture pack is video mein showcase kiya gaya hai. Aise UI packs gameplay mechanics ke bajaye game ke visual interface ko customise karte hain — jaise main menu, buttons aur loading/menu screens ka appearance. Video mein pack ka short preview hai; ise use karne se pehle aapke Minecraft build ke saath compatibility check karna zaroori hai.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "0m 20s",
+      "views": "58",
+      "date": "2026-07-10",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "CurseForge",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://www.curseforge.com/minecraft-bedrock/texture-packs/animated-fnaf2-ui",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-8",
+      "slug": "beneath-the-iron-peak-no-copyright-epic-orchestral-music",
+      "youtubeId": "eH3st6Wi4iQ",
+      "title": "\"Beneath The Iron Peak\" — No Copyright Epic Orchestral Music",
+      "topic": "“Beneath The Iron Peak” ek cinematic orchestral track hai jise video mein Legacy of the High Country album se associate kiya gaya hai.",
+      "description": "“Beneath The Iron Peak” ek cinematic orchestral track hai jise video mein Legacy of the High Country album se associate kiya gaya hai. Is tarah ka grand orchestral sound dramatic reveals, adventure scenes, trailers, cinematic Minecraft footage aur gaming montages ke mood ko support kar sakta hai. Video mein Minecraft shader visuals bhi hain; neeche diye gaye original visual source ko credit diya gaya hai.",
+      "category": "bg-music",
+      "categoryLabel": "BG Music",
+      "keywords": [],
+      "duration": "2m 27s",
+      "views": "34",
+      "date": "2026-07-09",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Visual Credit",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://youtu.be/s1Z1Rj3545g",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-9",
+      "slug": "bg-music-for-bedwars-gameplay",
+      "youtubeId": "sSzk3cy4WDo",
+      "title": "BG Music for BEDWARS Gameplay",
+      "topic": "Minecraft Bedwars gameplay ke liye fast-paced background music dhoondh rahe hain?",
+      "description": "Minecraft Bedwars gameplay ke liye fast-paced background music dhoondh rahe hain? Is video mein “Nexus Rush” track ko feature kiya gaya hai — listing ke mutabiq yeh Presto 170 BPM — Epic Drum & Bass style ka energetic track hai. Fast drums aur high tempo quick fights, bridging, clutch moments aur montage cuts ke saath fit ho sakte hain, lekin final choice aapke edit ke mood aur pacing par depend karegi.",
+      "category": "bg-music",
+      "categoryLabel": "BG Music",
+      "keywords": [],
+      "duration": "1m 42s",
+      "views": "8",
+      "date": "2026-07-01",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=cjp-anthem",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-10",
+      "slug": "final-boss-ascent-bg-music-for-pvp-clips-copyright-free",
+      "youtubeId": "ABqWDf7Vyyg",
+      "title": "\"Final Boss Ascent\" — BG Music for PvP Clips (Copyright Free)",
+      "topic": "“Final Boss Ascent” video mein featured ek fast-paced gaming EDM instrumental track hai.",
+      "description": "“Final Boss Ascent” video mein featured ek fast-paced gaming EDM instrumental track hai. Listing ke mutabiq yeh Overworld Conquest album ka 140 BPM track hai, jo Minecraft PvP clips, Bedwars, SkyWars, speedruns aur challenge edits ke liye energetic backdrop provide kar sakta hai. Instrumental music voice commentary ko cover kiye bina gameplay ke pace ko reinforce kar sakta hai, lekin volume ko dialogue/game sound ke neeche balance karna useful rahega.",
+      "category": "bg-music",
+      "categoryLabel": "BG Music",
+      "keywords": [],
+      "duration": "0m 40s",
+      "views": "18",
+      "date": "2026-06-23",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Kelvin",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://youtu.be/DT4B6DoZhCE",
+          "note": "Original video (Channel: )"
+        }
+      ]
+    },
+    {
+      "id": "video-11",
+      "slug": "feather-client-of-mcpe",
+      "youtubeId": "dnIvHiRmgRw",
+      "title": "Feather Client Of Mcpe",
+      "topic": "Is video mein Minecraft PE ke liye Feather Client ke download source aur basic setup ki taraf guide kiya gaya hai.",
+      "description": "Is video mein Minecraft PE ke liye Feather Client ke download source aur basic setup ki taraf guide kiya gaya hai. Client-related tools Minecraft ke interface ya gameplay experience ko modify kar sakte hain, lekin exact features aur compatibility download page aur current release par depend karte hain. Isliye install karne se pehle apne device aur Minecraft version ke liye official page ki information zaroor padhein.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "1m 56s",
+      "views": "14",
+      "date": "2026-06-20",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Flarial",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://flarial.xyz/download/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-12",
+      "slug": "bypass-the-impossible-red-border-in-minecraft-pe",
+      "youtubeId": "a2zM6LixRao",
+      "title": "Bypass the \"Impossible\" Red Border in Minecraft PE",
+      "topic": "Minecraft PE mein on-screen controls ko move karte waqt edge par red boundary aa rahi hai aur button ko expected jagah nahi rakh pa rahe?",
+      "description": "Minecraft PE mein on-screen controls ko move karte waqt edge par red boundary aa rahi hai aur button ko expected jagah nahi rakh pa rahe? Is video mein HUD/control editor ke behaviour ko exploit karne wali ek placement trick dikhayi gayi hai. Process screen-animation/anti-reset setting, boundary ke paas button position karne aur reset icon se placement ko adjust karne par based hai. Yeh regular supported feature nahi, isliye update ke baad kaam karna band kar sakta hai.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "1m 4s",
+      "views": "22",
+      "date": "2026-06-14",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-13",
+      "slug": "mummy-bacha-lo-most-hilarious-ai-generated-song",
+      "youtubeId": "Sop49dDHxNc",
+      "title": "😱 MUMMY BACHA LO! — Most Hilarious AI Generated Song",
+      "topic": "“Mummy Bacha Lo!” ek Hindi comedy song hai jo is listing ke mutabiq Google Gemini ki help se AI-generated kiya gaya.",
+      "description": "“Mummy Bacha Lo!” ek Hindi comedy song hai jo is listing ke mutabiq Google Gemini ki help se AI-generated kiya gaya. Video mein song ka short version sunne ko milta hai. Yeh comedy/entertainment content hai, tutorial nahi; song ki style aur punchline ka main experience video ko play karke hi milega.",
+      "category": "bg-music",
+      "categoryLabel": "BG Music",
+      "keywords": [],
+      "duration": "1m 18s",
+      "views": "16",
+      "date": "2026-06-05",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-14",
+      "slug": "minecraft-survival-the-sneakiest-players",
+      "youtubeId": "zMuOCeSHfZU",
+      "title": "Minecraft Survival: The Sneakiest Players! 🤣",
+      "topic": "Minecraft Survival ke un players ke liye ek funny musical tribute — jo har fight mein ghusne ke bajaye safe hiding spot dhoondhte hain!",
+      "description": "Minecraft Survival ke un players ke liye ek funny musical tribute — jo har fight mein ghusne ke bajaye safe hiding spot dhoondhte hain! “CJP Anthem” ka joke un “Chhup-chap Jiyo Players” par hai, jo diamonds aur risky battles se zyada survival aur chup kar rehne ko priority dete hain. Video gaming humour/song content hai, farm ya survival tutorial nahi.",
+      "category": "bg-music",
+      "categoryLabel": "BG Music",
+      "keywords": [],
+      "duration": "2m 25s",
+      "views": "48",
+      "date": "2026-05-26",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=cjp-anthem",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-15",
+      "slug": "custom-crosshairs-pack-for-minecraft-pe-30-free",
+      "youtubeId": "f2WzQF57Jyg",
+      "title": "Custom Crosshairs Pack for Minecraft PE (30+ Free)",
+      "topic": "Minecraft ka default crosshair change karna hai?",
+      "description": "Minecraft ka default crosshair change karna hai? Is video mein LegendWar ke Ultimate 30+ Custom Crosshairs resource pack ka short showcase hai. Listing mein 30 se zyada design options diye gaye hain — jaise arrows, hearts, dots aur circles — aur pack settings ke slider se available variants switch kiye ja sakte hain. Different crosshair designs aapko apni screen aur playstyle ke liye comfortable aiming marker choose karne dete hain.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "0m 43s",
+      "views": "361",
+      "date": "2026-05-19",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=30-pvp-crosshiars",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-16",
+      "slug": "free-marketplace-worlds-in-minecraft-pe-2026-method",
+      "youtubeId": "CLQmoSlZBq8",
+      "title": "Free Marketplace Worlds in Minecraft PE (2026 Method)",
+      "topic": "Minecraft Marketplace se free worlds, texture packs aur add-ons dhoondhne ka tareeka is tutorial mein dikhaya gaya hai.",
+      "description": "Minecraft Marketplace se free worlds, texture packs aur add-ons dhoondhne ka tareeka is tutorial mein dikhaya gaya hai. Is method ka main idea Marketplace ke available search/filter controls ka use karke zero-cost content identify karna hai; kisi paid item ko unlock karne ya payment restriction ko bypass karne ka method nahi hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 55s",
+      "views": "168",
+      "date": "2026-05-09",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-17",
+      "slug": "alya-ui-for-minecraft-pe-anime-ui-pack",
+      "youtubeId": "gqenO8iNUOY",
+      "title": "Alya UI for Minecraft PE — Anime UI Pack",
+      "topic": "Minecraft Bedrock/PE ke liye Alya-inspired anime UI pack ka visual showcase.",
+      "description": "Minecraft Bedrock/PE ke liye Alya-inspired anime UI pack ka visual showcase. Pack ka purpose game ki interface ko Alya anime theme dena hai — world ke blocks ya survival mechanics badalne ke bajaye main menu, loading screens aur menu panels ka appearance customise hota hai. Video mein short preview ke through pack ka aesthetic dikhaya gaya hai.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "0m 35s",
+      "views": "244",
+      "date": "2026-05-05",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=alya-ui-pack",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-18",
+      "slug": "itachi-uchiha-ui-for-minecraft-pe-naruto-menu",
+      "youtubeId": "bNBf6Nh3z4U",
+      "title": "Itachi Uchiha UI for Minecraft PE (Naruto Menu)",
+      "topic": "Naruto ke Itachi Uchiha se inspired red-and-black UI resource pack ka showcase.",
+      "description": "Naruto ke Itachi Uchiha se inspired red-and-black UI resource pack ka showcase. Video mein Minecraft PE/Bedrock ke interface ko themed look dene wale elements — custom main menu, loading screen, hotbar aur inventory visuals — dikhaye gaye hain. Is tarah ke pack ka main purpose visual customisation hota hai; yeh apne aap gameplay abilities ya performance upgrade nahi karta.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "0m 22s",
+      "views": "352",
+      "date": "2026-04-30",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=itachi-uchiha-resource-pack",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-19",
+      "slug": "minecraft-custom-texture-pack-on-android-no-pc",
+      "youtubeId": "eRKSy5SaY-k",
+      "title": "Minecraft Custom Texture Pack on Android (NO PC!)",
+      "topic": "PC ke bina Android phone se Minecraft Bedrock ke liye custom texture pack banana seekhein.",
+      "description": "PC ke bina Android phone se Minecraft Bedrock ke liye custom texture pack banana seekhein. Is tutorial mein Bedrock Tweaks website se selected texture options choose karke unhe ek downloadable pack mein combine karne ka workflow dikhaya gaya hai. Yeh un players ke liye useful hai jo apne game ka visual style customise karna chahte hain bina desktop editor ke.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "1m 13s",
+      "views": "26",
+      "date": "2026-04-22",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Bedrock Tweaks",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://bedrocktweaks.net/resource-packs",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-20",
+      "slug": "fix-achievements-cannot-be-earned-in-this-world-works-in-2",
+      "youtubeId": "UQnO_Edp1xw",
+      "title": "FIX: \"Achievements cannot be earned in this world\" (Works in 2 Min)",
+      "topic": "Minecraft Bedrock world mein “Achievements cannot be earned in this world” message dikh raha hai?",
+      "description": "Minecraft Bedrock world mein “Achievements cannot be earned in this world” message dikh raha hai? Is video mein world files tak pahunchne aur related file/workaround approach ko cover kiya gaya hai. Yeh message aksar world par aise changes ke baad aata hai jo achievements eligibility ko affect karte hain. Is tarah ke file-level workaround ka result Minecraft version, world state aur available file access par depend karta hai — isliye ise guaranteed achievement restore method",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "1m 30s",
+      "views": "7179",
+      "date": "2026-04-19",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-21",
+      "slug": "minecraft-bedrock-lag-fix-render-distance-limiter-fps-boost",
+      "youtubeId": "v2qUq85MVeU",
+      "title": "Minecraft Bedrock Lag Fix — Render Distance Limiter (FPS Boost)",
+      "topic": "Minecraft Bedrock mein lag, stutter ya frame drops aa rahe hain?",
+      "description": "Minecraft Bedrock mein lag, stutter ya frame drops aa rahe hain? Is video mein Render Distance Limiter tool ko show kiya gaya hai. Render distance control karta hai ki player ke aas-paas kitni door tak world render ho; ise kam karne se kuch devices par graphical workload reduce ho sakta hai. Actual FPS improvement hardware, simulation distance, world complexity aur doosri settings par depend karega — fixed boost ki guarantee nahi hai.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "0m 45s",
+      "views": "61",
+      "date": "2026-04-05",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Project/Website",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
+          "note": ""
+        },
+        {
+          "name": "Render Distance Limiter",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://mcpedl.com/render-distance-limiter/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-22",
+      "slug": "convert-zip-to-mcpack-mcaddon-works-every-time",
+      "youtubeId": "0ysuZVxS1Kc",
+      "title": "Convert .ZIP to .MCPACK / .MCADDON (Works Every Time)",
+      "topic": "Minecraft PE mein downloaded .zip file ko Resource Pack, Add-on ya world content ke roop mein import karne mein problem aa rahi hai?",
+      "description": "Minecraft PE mein downloaded .zip file ko Resource Pack, Add-on ya world content ke roop mein import karne mein problem aa rahi hai? Is tutorial mein ZArchiver ke through extension rename karne aur zaroorat padne par pack folder ko manually correct Minecraft directory mein copy karne ke options cover kiye gaye hain. Sabse important baat: file ka extension badalna archive ke andar ka content convert nahi karta. Rename method tabhi kaam karega jab ZIP ke andar pehle se valid",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 41s",
+      "views": "2108",
+      "date": "2026-03-25",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Project Page",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-23",
+      "slug": "solo-leveling-ui-for-minecraft-pe-anime-menu-pack",
+      "youtubeId": "7SRxt6xqjHA",
+      "title": "Solo Leveling UI for Minecraft PE (Anime Menu Pack)",
+      "topic": "Solo Leveling se inspired anime UI pack ke saath Minecraft PE/Bedrock ke interface ko themed look dene wala short showcase.",
+      "description": "Solo Leveling se inspired anime UI pack ke saath Minecraft PE/Bedrock ke interface ko themed look dene wala short showcase. Video mein Sung Jin-woo-inspired visuals, custom main menu, loading screens, health bars/HUD aur anime-style buttons dikhaye gaye hain. Pack ka purpose interface ko customise karna hai; title ka “Monarch” theme creative flavour hai, gameplay power-up ka claim nahi.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "0m 29s",
+      "views": "345",
+      "date": "2026-03-19",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=solo-leveling-ui",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-24",
+      "slug": "minecraft-pe-night-vision-texture-pack-1-21-full-bright-mod",
+      "youtubeId": "sqr3GznGeHI",
+      "title": "Minecraft PE Night Vision Texture Pack 1.21+ | Full Bright Mod",
+      "topic": "Minecraft PE mein caves, ravines ya underwater areas bahut dark lagte hain?",
+      "description": "Minecraft PE mein caves, ravines ya underwater areas bahut dark lagte hain? Is video mein Night Vision / Full Bright texture pack dikhaya gaya hai, jo game ki visuals ko brighter banane ke liye use hota hai. Yeh normal in-game potion se alag visual-pack approach hai. Result pack ke design, game version aur doosre active resource packs ke saath conflict par depend kar sakta hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 17s",
+      "views": "355",
+      "date": "2026-03-18",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Not Gaming Playz",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://not-gaming-playz.pages.dev/resources.html?id=night-vision-resource-pack",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-25",
+      "slug": "i-survived-the-deadliest-skywars-battle-in-minecraft",
+      "youtubeId": "-j27vQEoKBU",
+      "title": "I Survived the DEADLIEST SkyWars Battle in Minecraft!",
+      "topic": "Is Minecraft SkyWars match mein @manishbhauuu ke saath floating islands par PvP gameplay dikhaya gaya hai.",
+      "description": "Is Minecraft SkyWars match mein @manishbhauuu ke saath floating islands par PvP gameplay dikhaya gaya hai. Match ki progression warmup se start hoti hai, phir early sword fight, Ender Chest loot, Ender Pearl play aur Kill Leader ke against encounter tak jaati hai. Mid-game mein Spell of Swiftness ka use aur final battle mein opponent ko Void mein bhejne wala moment highlight hai.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "2m 22s",
+      "views": "123",
+      "date": "2026-03-13",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-26",
+      "slug": "how-to-export-minecraft-mobile-world-using-pc-bedrock",
+      "youtubeId": "ADTw3AP6ues",
+      "title": "How to Export Minecraft Mobile World using PC (Bedrock)",
+      "topic": "Minecraft Bedrock mobile world ko Windows PC par backup ya doosre device par transfer karna hai?",
+      "description": "Minecraft Bedrock mobile world ko Windows PC par backup ya doosre device par transfer karna hai? Is video mein Android phone ko PC se connect karke Minecraft world files tak pahunchne ka file-transfer workflow dikhaya gaya hai. World backup rakhna game reinstall, device change ya save corruption ke risk se pehle useful ho sakta hai. Video record ke mutabiq method Windows 11 PC par test kiya gaya tha; har Android version par file access same nahi hota.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "1m 13s",
+      "views": "333",
+      "date": "2026-03-10",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Extra Information",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://drive.google.com/file/d/1ZjmlwOh3GGxb1MsQUxZwxVwvSC1PSsCD/view",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-27",
+      "slug": "how-to-export-minecraft-pe-worlds-on-android-fix-data",
+      "youtubeId": "3sw1KETzFUo",
+      "title": "How to Export Minecraft PE Worlds on Android | Fix Data Folder Hidden",
+      "topic": "Android par Minecraft PE world ka folder nahi mil raha ya Android/data access blocked hai?",
+      "description": "Android par Minecraft PE world ka folder nahi mil raha ya Android/data access blocked hai? Is tutorial mein Shizuku aur ZArchiver ko combine karke Minecraft world files locate karne aur unka backup Downloads jaise accessible folder mein copy karne ka workflow cover kiya gaya hai. Yeh normal file-manager navigation se zyada setup mangta hai, aur exact menu labels Android version/device ke mutabiq change ho sakte hain.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "2m 52s",
+      "views": "524",
+      "date": "2026-03-08",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "ZArchiver",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver",
+          "note": "Files/folders browse, extract aur copy karne ke liye"
+        },
+        {
+          "name": "Shizuku",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+          "note": "Supported Android devices par app ko ADB/Wireless Debugging ke through elevated file access dene ke liye"
+        }
+      ]
+    },
+    {
+      "id": "video-28",
+      "slug": "spectator-mode-in-minecraft-bedrock-any-version",
+      "youtubeId": "H_vo7mIkV5M",
+      "title": "Spectator Mode in Minecraft Bedrock | Any Version",
+      "topic": "Minecraft Bedrock mein Spectator Mode switch karne ke do options is video mein cover kiye gaye hain: settings se game mode choose karna ya chat command enter karna.",
+      "description": "Minecraft Bedrock mein Spectator Mode switch karne ke do options is video mein cover kiye gaye hain: settings se game mode choose karna ya chat command enter karna. Spectator mode ka use world ko fly/observe karne ke liye hota hai bina normal survival movement/building ke; exact availability game version aur world permissions par depend kar sakti hai.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "0m 46s",
+      "views": "97",
+      "date": "2026-02-28",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-29",
+      "slug": "custom-totem-pack-for-minecraft-pe-free-download",
+      "youtubeId": "Y90j0Bv5mAE",
+      "title": "Custom Totem Pack for Minecraft PE (Free Download)",
+      "topic": "Minecraft PE ke liye Custom Totem of Undying Pack ka short preview aur download source yahan diya gaya hai.",
+      "description": "Minecraft PE ke liye Custom Totem of Undying Pack ka short preview aur download source yahan diya gaya hai. Totem texture pack ka goal held/used Totem of Undying ka appearance change karna hota hai; exact design video mein dikhaye gaye pack par depend karta hai. Yeh showcase/pack listing hai, detailed skin-editing tutorial nahi.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 29s",
+      "views": "22",
+      "date": "2024-08-26",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Google Drive",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://drive.google.com/drive/folders/13cG0UVnJ9KJKhqzVL5EcJnJGIyQMeMUV",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-30",
+      "slug": "night-vision-pack-for-mcpe-1-21-direct-link",
+      "youtubeId": "zGagm8gpVKo",
+      "title": "Night Vision Pack for MCPE 1.21 || Direct Link",
+      "topic": "Minecraft PE 1.21 ke liye Night Vision / Full Bright texture pack ka download source is video mein share kiya gaya hai.",
+      "description": "Minecraft PE 1.21 ke liye Night Vision / Full Bright texture pack ka download source is video mein share kiya gaya hai. Full Bright-style packs dark caves aur underground areas ko brighter dikhane ki koshish karte hain, taaki player ko andhere mein surroundings dekhna aasaan ho. Actual result pack ki file, game version aur current resource-pack setup par depend karta hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 41s",
+      "views": "243",
+      "date": "2024-06-22",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "9Minecraft",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://www.9minecraft.net/full-bright-night-vision-pack-mcpe/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-31",
+      "slug": "epic-pvp-texture-packs-for-winners",
+      "youtubeId": "BZp4En9A3ec",
+      "title": "Epic PvP Texture Packs for Winners! 🏆",
+      "topic": "Is video mein Minecraft PE ke liye PvP-focused texture packs ka short showcase hai.",
+      "description": "Is video mein Minecraft PE ke liye PvP-focused texture packs ka short showcase hai. Aise packs player ke game visuals ko competitive play ke liye different look de sakte hain, lekin exact features pack-to-pack change hote hain. Video title Minecraft 1.20 ke liye packs ka reference deta hai; is listing ke source record mein individual pack names, feature breakdown ya direct download URL available nahi hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 52s",
+      "views": "27",
+      "date": "2024-04-12",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-32",
+      "slug": "night-vision-texture-pack-for-mcpe-1-20-60",
+      "youtubeId": "ZEMZGFdw_3U",
+      "title": "Night Vision Texture Pack For MCPE 1.20.60+",
+      "topic": "Minecraft PE 1.20.60+ ke liye Night Vision texture pack ka short showcase.",
+      "description": "Minecraft PE 1.20.60+ ke liye Night Vision texture pack ka short showcase. Is tarah ka Full Bright/Night Vision resource pack dark areas ko brighter visual treatment de sakta hai; exact look aur compatibility actual pack file par depend karegi. Yeh entry visual preview ke roop mein listed hai, lekin source record mein separate, confirmed download link nahi diya gaya hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "0m 18s",
+      "views": "71",
+      "date": "2024-03-13",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-33",
+      "slug": "remove-command-block-feedback-easy-all-editions",
+      "youtubeId": "1grIuw2jQ3c",
+      "title": "Remove Command Block Feedback || Easy || All Editions",
+      "topic": "Command blocks execute hone par chat mein baar-baar status/output messages aa rahe hain?",
+      "description": "Command blocks execute hone par chat mein baar-baar status/output messages aa rahe hain? Minecraft ka Command Block Feedback / command block output gamerule in messages ko control karta hai. Is video ka goal chat ko cleaner rakhne ke liye command block output disable karna hai — command blocks ko completely turn off karna nahi.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "0m 40s",
+      "views": "20",
+      "date": "2024-01-21",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Official Bedrock reference",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://learn.microsoft.com/en-us/minecraft/creator/commands/commands/gamerule?view=minecraft-bedrock-stable",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-34",
+      "slug": "transform-your-totem-minecraft-custom-skin-tutorial",
+      "youtubeId": "A-yoHAOflMc",
+      "title": "Transform Your Totem: Minecraft Custom Skin Tutorial",
+      "topic": "Is tutorial ka focus Minecraft PE mein Totem of Undying ki default texture ko apne custom design se replace karna hai.",
+      "description": "Is tutorial ka focus Minecraft PE mein Totem of Undying ki default texture ko apne custom design se replace karna hai. Totem ka texture game mein ek specific item appearance ko control karta hai; texture pack banane par original artwork ko apni custom image se replace karke pack ke through load kiya ja sakta hai. Video title custom-skin style totem design ke workflow ko point karta hai.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "1m 23s",
+      "views": "76",
+      "date": "2023-10-26",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-35",
+      "slug": "sugercane-farm-for-mcpe-for-all-version-tutorial",
+      "youtubeId": "C9rn9UdzNwc",
+      "title": "SugerCane Farm For MCPE || For ALL VERSION || Tutorial",
+      "topic": "Minecraft PE mein Sugar Cane Farm banana seekhein.",
+      "description": "Minecraft PE mein Sugar Cane Farm banana seekhein. Sugar cane ko grow karne ke liye suitable block par water ke bilkul adjacent plant karna hota hai; mature cane ko harvest karke paper aur sugar crafting mein use kiya ja sakta hai. Video ka title tutorial/farm build ko indicate karta hai, lekin is record mein exact block-by-block layout ya required-material list included nahi hai, isliye precise build details ke liye video ko follow karein.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "2m 53s",
+      "views": "77",
+      "date": "2023-10-12",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Reference for basic growth/placement mechanics",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://minecraft.wiki/w/Tutorial%3ASugar_cane_farming",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-36",
+      "slug": "saturn-client-download-now-for-better-gaming",
+      "youtubeId": "t4p6_J-QRpA",
+      "title": "Saturn Client: Download Now for Better Gaming",
+      "topic": "Is video mein Minecraft PE ke liye Saturn Client Pack v2.0 ka download link share kiya gaya hai.",
+      "description": "Is video mein Minecraft PE ke liye Saturn Client Pack v2.0 ka download link share kiya gaya hai. Pack/client files game ke interface ya visuals ko modify kar sakti hain, lekin exact functions aur compatibility source page par listed release ke mutabiq depend karte hain. Download se pehle file details aur installation instructions verify karein; performance improvement ko guaranteed result na samjhein.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "1m 1s",
+      "views": "617",
+      "date": "2023-08-21",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "MediaFire",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://www.mediafire.com/file/erkv0bpg7ah8g6i/Saturn+Client+Pack+v2.0+rp.zip/file?dkey=yhdg7tafmnf&r=932",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-37",
+      "slug": "dark-ui-for-minecraft-dont-miss",
+      "youtubeId": "aAGNYeKEWNg",
+      "title": "Dark UI for Minecraft: Don't Miss 😳",
+      "topic": "Minecraft ke default interface ko darker look dene wala Dark UI Resource Pack is video mein showcase kiya gaya hai.",
+      "description": "Minecraft ke default interface ko darker look dene wala Dark UI Resource Pack is video mein showcase kiya gaya hai. Dark-style UI pack menu/interface ke colours aur visual presentation ko alter kar sakta hai, jisse Minecraft ka appearance more subdued/dark ho jaata hai. Yeh visual customisation hai; gameplay mechanics ko change karne ka claim nahi.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [],
+      "duration": "1m 48s",
+      "views": "235",
+      "date": "2023-07-02",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "Creator channel",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://youtube.com/@offroaders123",
+          "note": ""
+        },
+        {
+          "name": "Download page",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://mcpedl.com/dark-mode-resource-pack/",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-38",
+      "slug": "best-texture-pack-for-mcpe-all-in-one-texture",
+      "youtubeId": "bw7Q1SzRzfs",
+      "title": "Best Texture pack for MCPE. All in one texture",
+      "topic": "Is video mein Minecraft PE ke liye ek all-in-one texture pack ka showcase hai.",
+      "description": "Is video mein Minecraft PE ke liye ek all-in-one texture pack ka showcase hai. Listing ke mutabiq pack ek download mein multiple texture changes combine karta hai, toh alag-alag individual textures install karne ke bajaye ek combined pack try kiya ja sakta hai. Exact changes ki complete itemised list is source record mein available nahi hai; video preview aur download page se pack ka actual appearance verify karein.",
+      "category": "texture-packs",
+      "categoryLabel": "Texture Packs",
+      "keywords": [],
+      "duration": "2m 5s",
+      "views": "217",
+      "date": "2023-03-03",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "MediaFire",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://www.mediafire.com/file/4tp1p4s89w806xz/CF_TEXTURE_V5.mcpack.zip/file",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "video-39",
+      "slug": "linkvertise-bypass-directgrab-se-direct-link-kaise-nikalein",
+      "youtubeId": "l1JkukHmDVg",
+      "title": "Linkvertise Bypass — DirectGrab Se Direct Link Kaise Nikalein",
+      "topic": "Linkvertise, Rekonise, Boost.ink, Lootlink aur doosre redirect/short-link pages kabhi destination URL tak pahunchne se pehle ads, timers ya extra steps dikhate hain.",
+      "description": "Linkvertise, Rekonise, Boost.ink, Lootlink aur doosre redirect/short-link pages kabhi destination URL tak pahunchne se pehle ads, timers ya extra steps dikhate hain. Is video mein DirectGrab ko browser-based option ke roop mein test kiya gaya hai, jahan supported source links ke liye original destination URL dhoondhne ki koshish ki ja sakti hai. Yeh kisi app ya browser extension ko install kiye bina try karne ke liye listed hai. Har short-link service ya har individual URL",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [],
+      "duration": "2m 15s",
+      "views": "389",
+      "date": "2026-09-29",
+      "hasGuide": true,
+      "downloads": [
+        {
+          "name": "DirectGrab",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://directgrab.pages.dev",
+          "note": ""
+        },
+        {
+          "name": "Bypass.city",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://bypass.city",
+          "note": ""
+        },
+        {
+          "name": "Bypass.vip",
+          "type": "Link",
+          "size": "",
+          "icon": "🔗",
+          "url": "https://bypass.vip",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

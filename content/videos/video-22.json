@@ -1,0 +1,25 @@
+{
+  "id": "video-22",
+  "slug": "convert-zip-to-mcpack-mcaddon-works-every-time",
+  "youtubeId": "0ysuZVxS1Kc",
+  "title": "Convert .ZIP to .MCPACK / .MCADDON (Works Every Time)",
+  "topic": "Minecraft PE mein downloaded .zip file ko Resource Pack, Add-on ya world content ke roop mein import karne mein problem aa rahi hai?",
+  "description": "Minecraft PE mein downloaded .zip file ko Resource Pack, Add-on ya world content ke roop mein import karne mein problem aa rahi hai? Is tutorial mein ZArchiver ke through extension rename karne aur zaroorat padne par pack folder ko manually correct Minecraft directory mein copy karne ke options cover kiye gaye hain. Sabse important baat: file ka extension badalna archive ke andar ka content convert nahi karta. Rename method tabhi kaam karega jab ZIP ke andar pehle se valid",
+  "category": "texture-packs",
+  "categoryLabel": "Texture Packs",
+  "keywords": [],
+  "duration": "0m 41s",
+  "views": "2108",
+  "date": "2026-03-25",
+  "watchUrl": "https://www.youtube.com/watch?v=0ysuZVxS1Kc",
+  "downloads": [
+    {
+      "name": "Project Page",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
+      "note": ""
+    }
+  ]
+}

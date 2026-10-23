@@ -1,0 +1,33 @@
+{
+  "id": "video-27",
+  "slug": "how-to-export-minecraft-pe-worlds-on-android-fix-data",
+  "youtubeId": "3sw1KETzFUo",
+  "title": "How to Export Minecraft PE Worlds on Android | Fix Data Folder Hidden",
+  "topic": "Android par Minecraft PE world ka folder nahi mil raha ya Android/data access blocked hai?",
+  "description": "Android par Minecraft PE world ka folder nahi mil raha ya Android/data access blocked hai? Is tutorial mein Shizuku aur ZArchiver ko combine karke Minecraft world files locate karne aur unka backup Downloads jaise accessible folder mein copy karne ka workflow cover kiya gaya hai. Yeh normal file-manager navigation se zyada setup mangta hai, aur exact menu labels Android version/device ke mutabiq change ho sakte hain.",
+  "category": "tips-tricks",
+  "categoryLabel": "Tips & Tricks",
+  "keywords": [],
+  "duration": "2m 52s",
+  "views": "524",
+  "date": "2026-03-08",
+  "watchUrl": "https://www.youtube.com/watch?v=3sw1KETzFUo",
+  "downloads": [
+    {
+      "name": "ZArchiver",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver",
+      "note": "Files/folders browse, extract aur copy karne ke liye"
+    },
+    {
+      "name": "Shizuku",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+      "note": "Supported Android devices par app ko ADB/Wireless Debugging ke through elevated file access dene ke liye"
+    }
+  ]
+}

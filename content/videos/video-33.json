@@ -1,0 +1,25 @@
+{
+  "id": "video-33",
+  "slug": "remove-command-block-feedback-easy-all-editions",
+  "youtubeId": "1grIuw2jQ3c",
+  "title": "Remove Command Block Feedback || Easy || All Editions",
+  "topic": "Command blocks execute hone par chat mein baar-baar status/output messages aa rahe hain?",
+  "description": "Command blocks execute hone par chat mein baar-baar status/output messages aa rahe hain? Minecraft ka Command Block Feedback / command block output gamerule in messages ko control karta hai. Is video ka goal chat ko cleaner rakhne ke liye command block output disable karna hai — command blocks ko completely turn off karna nahi.",
+  "category": "tips-tricks",
+  "categoryLabel": "Tips & Tricks",
+  "keywords": [],
+  "duration": "0m 40s",
+  "views": "20",
+  "date": "2024-01-21",
+  "watchUrl": "https://www.youtube.com/watch?v=1grIuw2jQ3c",
+  "downloads": [
+    {
+      "name": "Official Bedrock reference",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/commands/commands/gamerule?view=minecraft-bedrock-stable",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "video-4",
+  "slug": "resource-pack-import-failed-minecraft-pe-1-21-fix-in-1-min",
+  "youtubeId": "cVnznOL55q4",
+  "title": "Resource Pack Import Failed — Minecraft PE 1.21+ Fix in 1 Min",
+  "topic": "Minecraft PE/Bedrock mein “Resource Pack Import Failed” error aa raha hai?",
+  "description": "Minecraft PE/Bedrock mein “Resource Pack Import Failed” error aa raha hai? Is tutorial ka focus manifest.json par hai — yeh file Minecraft ko pack ki identity, version aur module information batati hai. Agar file missing ho, invalid JSON ho, required fields galat hon ya pack ka folder structure incorrect ho, toh import fail ho sakta hai. Video mein manifest manually create/add karne aur online Manifest Generator use karne ka approach dikhaya gaya hai.",
+  "category": "texture-packs",
+  "categoryLabel": "Texture Packs",
+  "keywords": [],
+  "duration": "0m 44s",
+  "views": "689",
+  "date": "2026-08-09",
+  "watchUrl": "https://www.youtube.com/watch?v=cVnznOL55q4",
+  "downloads": [
+    {
+      "name": "Manifest Generator",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://antigleforge.pages.dev/tools/manifest-generator",
+      "note": ""
+    }
+  ]
+}

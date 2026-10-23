@@ -1,0 +1,33 @@
+{
+  "id": "video-1",
+  "slug": "resource-pack-import-nahi-ho-raha-uuid-generator-se-fix",
+  "youtubeId": "Mvx-Y4RI-8Q",
+  "title": "Resource Pack Import Nahi Ho Raha? UUID Generator Se Fix Karo — Minecraft Bedrock",
+  "topic": "Minecraft Bedrock mein Resource Pack ya Behavior Pack import nahi ho raha?",
+  "description": "Minecraft Bedrock mein Resource Pack ya Behavior Pack import nahi ho raha? Issue ka ek possible reason manifest.json mein missing, invalid ya duplicate UUID ho sakta hai. UUID har pack/module ki unique identity hoti hai; isliye sirf pack ka naam badal dena ya kisi doosre pack ka UUID copy karna reliable fix nahi hai. Is short tutorial mein UUID Generator se identifiers banana aur unhe manifest mein sahi jagah rakhna dikhaya gaya hai.",
+  "category": "texture-packs",
+  "categoryLabel": "Texture Packs",
+  "keywords": [],
+  "duration": "0m 50s",
+  "views": "61",
+  "date": "2026-09-18",
+  "watchUrl": "https://www.youtube.com/watch?v=Mvx-Y4RI-8Q",
+  "downloads": [
+    {
+      "name": "UUID Generator",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://not-gaming-playz.pages.dev/uuid-generator",
+      "note": ""
+    },
+    {
+      "name": "ZArchiver (Android)",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver",
+      "note": "phone par pack files aur folders manage karne ke liye."
+    }
+  ]
+}

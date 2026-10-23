@@ -1,0 +1,16 @@
+{
+  "id": "video-12",
+  "slug": "bypass-the-impossible-red-border-in-minecraft-pe",
+  "youtubeId": "a2zM6LixRao",
+  "title": "Bypass the \"Impossible\" Red Border in Minecraft PE",
+  "topic": "Minecraft PE mein on-screen controls ko move karte waqt edge par red boundary aa rahi hai aur button ko expected jagah nahi rakh pa rahe?",
+  "description": "Minecraft PE mein on-screen controls ko move karte waqt edge par red boundary aa rahi hai aur button ko expected jagah nahi rakh pa rahe? Is video mein HUD/control editor ke behaviour ko exploit karne wali ek placement trick dikhayi gayi hai. Process screen-animation/anti-reset setting, boundary ke paas button position karne aur reset icon se placement ko adjust karne par based hai. Yeh regular supported feature nahi, isliye update ke baad kaam karna band kar sakta hai.",
+  "category": "ui-packs",
+  "categoryLabel": "UI Packs",
+  "keywords": [],
+  "duration": "1m 4s",
+  "views": "22",
+  "date": "2026-06-14",
+  "watchUrl": "https://www.youtube.com/watch?v=a2zM6LixRao",
+  "downloads": []
+}

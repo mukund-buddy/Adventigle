@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch — Adventigle</title>
+  <meta name="description" content="Watch the video, grab the downloads, read the topic breakdown, ask questions and leave a review — Adventigle.">
+  <meta name="theme-color" content="#f4f4f0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23ff90e8'/%3E%3Ctext x='50' y='68' font-size='48' text-anchor='middle'%3E%F0%9F%A6%85%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="../../index.html" aria-label="Adventigle home">Adventigle</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../index.html#videos">Videos</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="langBtn" class="btn btn--ghost btn--sm" type="button" title="Change language">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span class="lang-label">Language</span>
+        </button>
+        <button id="navToggle" class="btn btn--ghost btn--sm nav-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+      </div>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Primary mobile" hidden>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../index.html#videos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div id="videoApp">
+      <section class="section">
+        <div class="container">
+          <div class="loader"><div class="box"></div></div>
+          <noscript>
+            <div class="notice">This page builds itself from static JSON + Markdown. Enable JavaScript to load the video, guide, reviews and forms.</div>
+          </noscript>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="wordmark">Adventigle</span>
+        <p class="small muted">Minecraft PE videos, UI &amp; texture packs, tips and free downloads by Mukund.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="../../index.html#videos">Videos</a></li>
+          <li><a href="#" id="footerLang">Language</a></li>
+          <li><a href="https://www.youtube.com/@notgamingplayz" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p class="small muted">© 2026 Adventigle. Visual system adapted from the Gumroad open-source design system (MIT).</p>
+    </div>
+  </footer>
+
+  <div class="modal-scrim" id="langModal" role="dialog" aria-modal="true" aria-labelledby="langModalTitle">
+    <div class="modal">
+      <div class="modal-head">
+        <span class="modal-title" id="langModalTitle" data-i18n="modal_title">Pick your language</span>
+        <button class="close-btn" type="button" aria-label="Close language picker">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="muted small" data-i18n="modal_sub">You can change this anytime from the menu above.</p>
+        <div class="lang-grid" id="langGrid"></div>
+        <p class="small muted" style="margin-top:1.1rem;" data-i18n="modal_gt_note">💡 Guides and reviews are auto-translated by Google Translate when you pick a language.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="google_translate_element" style="display:none" aria-hidden="true"></div>
+
+  <script>window.__VIDEO_SLUG__="how-to-export-minecraft-mobile-world-using-pc-bedrock";window.__SITE_ROOT__="../../";</script>
+  <script src="../../assets/js/app.js"></script>
+  <script>
+    window.googleTranslateElementInit = function () {
+      if (typeof google === "undefined" || !google.translate) return;
+      new google.translate.TranslateElement({
+        pageLanguage: "en",
+        includedLanguages: "en,hi,es,fr,de,ja,pt,id,ru,ar",
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, "google_translate_element");
+    };
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</body>
+</html>

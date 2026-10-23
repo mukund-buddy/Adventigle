@@ -1,0 +1,33 @@
+{
+  "id": "video-21",
+  "slug": "minecraft-bedrock-lag-fix-render-distance-limiter-fps-boost",
+  "youtubeId": "v2qUq85MVeU",
+  "title": "Minecraft Bedrock Lag Fix — Render Distance Limiter (FPS Boost)",
+  "topic": "Minecraft Bedrock mein lag, stutter ya frame drops aa rahe hain?",
+  "description": "Minecraft Bedrock mein lag, stutter ya frame drops aa rahe hain? Is video mein Render Distance Limiter tool ko show kiya gaya hai. Render distance control karta hai ki player ke aas-paas kitni door tak world render ho; ise kam karne se kuch devices par graphical workload reduce ho sakta hai. Actual FPS improvement hardware, simulation distance, world complexity aur doosri settings par depend karega — fixed boost ki guarantee nahi hai.",
+  "category": "tips-tricks",
+  "categoryLabel": "Tips & Tricks",
+  "keywords": [],
+  "duration": "0m 45s",
+  "views": "61",
+  "date": "2026-04-05",
+  "watchUrl": "https://www.youtube.com/watch?v=v2qUq85MVeU",
+  "downloads": [
+    {
+      "name": "Project/Website",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
+      "note": ""
+    },
+    {
+      "name": "Render Distance Limiter",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://mcpedl.com/render-distance-limiter/",
+      "note": ""
+    }
+  ]
+}

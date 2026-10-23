@@ -1,0 +1,49 @@
+{
+  "id": "video-6",
+  "slug": "own-professional-website-with-ai-no-coding-just-15-minutes",
+  "youtubeId": "kpdVvvglzSo",
+  "title": "Own Professional Website with AI (No Coding) | Just 15 Minutes",
+  "topic": "AI ki help se apni website banana chahte hain, lekin poora project zero se code nahi karna?",
+  "description": "AI ki help se apni website banana chahte hain, lekin poora project zero se code nahi karna? Is video mein ek ready-made website project ko apne channel/brand ke hisaab se customize karne aur GitHub Pages par publish karne ka workflow dikhaya gaya hai. Is approach mein har webpage ko manually edit karne ke bajaye kuch data/configuration files update ki jaati hain, phir AI assistant ko project README aur files samjha kar changes karwaye ja sakte hain.",
+  "category": "texture-packs",
+  "categoryLabel": "Texture Packs",
+  "keywords": [],
+  "duration": "3m 6s",
+  "views": "7",
+  "date": "2026-07-30",
+  "watchUrl": "https://www.youtube.com/watch?v=kpdVvvglzSo",
+  "downloads": [
+    {
+      "name": "Gemini API Key / Google AI Studio",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://aistudio.google.com/apikey",
+      "note": ""
+    },
+    {
+      "name": "Website Files",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://not-gaming-playz.pages.dev/resources.html?id=free-ai-website-files",
+      "note": ""
+    },
+    {
+      "name": "GitHub Repository",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://github.com/mukund-buddy/Your-Channel",
+      "note": ""
+    },
+    {
+      "name": "Website Preview",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://manis.netlify.app/",
+      "note": ""
+    }
+  ]
+}

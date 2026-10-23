@@ -1,0 +1,33 @@
+{
+  "id": "video-2",
+  "slug": "easy-to-build-perfect-circles-shapes-in-minecraft-bedrock",
+  "youtubeId": "ejJL-hDMBt8",
+  "title": "Easy to build — Perfect Circles & Shapes in Minecraft Bedrock",
+  "topic": "Minecraft Bedrock mein perfect circle, hollow shape ya doosra custom structure banana hai?",
+  "description": "Minecraft Bedrock mein perfect circle, hollow shape ya doosra custom structure banana hai? Is tutorial mein shape ko manually block-by-block design karne ke bajaye Shape Generator se dimensions aur block type choose karna, phir generated .mcstructure file ko HoloPrint ke through Minecraft mein hologram-style building guide ki tarah use karna cover kiya gaya hai. Yeh approach symmetric builds aur planned structures ke liye useful ho sakti hai.",
+  "category": "tips-tricks",
+  "categoryLabel": "Tips & Tricks",
+  "keywords": [],
+  "duration": "3m 8s",
+  "views": "23",
+  "date": "2026-09-05",
+  "watchUrl": "https://www.youtube.com/watch?v=ejJL-hDMBt8",
+  "downloads": [
+    {
+      "name": "Shape Generator",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://not-gaming-playz.pages.dev/resources.html?id=shape-generator",
+      "note": ""
+    },
+    {
+      "name": "HoloPrint",
+      "type": "Link",
+      "size": "",
+      "icon": "🔗",
+      "url": "https://holoprint-mc.github.io/",
+      "note": ""
+    }
+  ]
+}
