@@ -209,7 +209,7 @@ ki `includedLanguages` list).
 Koi bhi static host chalega (Cloudflare Pages, Netlify, Vercel) — bas folder daal do.
 
 > 💡 Har video ka apna shareable URL hai, jaise
-> `https://adventigle.jmukund9625.workers.dev/video/photo-se-minecraft-skin-kaise-banaye-100-free/`
+> `https://mukund-buddy.github.io/Adventigle/video/photo-se-minecraft-skin-kaise-banaye-100-free/`
 
 ---
 
@@ -237,7 +237,7 @@ Debug karne ke liye browser mein **F12** dabao → **Console** tab → error dek
 | `video/<slug>/index.html` | Har video ka apna shareable page |
 | `assets/css/style.css` | Poora design (colors, fonts, layout) |
 | `assets/js/app.js` | Website ka dimaag — data load, forms, language |
-| `content/videos/index.json` | Home grid ka catalog (38 videos) |
+| `content/videos/index.json` | Home grid ka catalog (39 videos) |
 | `content/videos/video-N.json` | Ek video ki detail |
 | `content/videos/video-N.md` | Ek video ke notes |
 | `content/reviews.json` | Approved reviews |

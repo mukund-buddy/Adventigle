@@ -524,14 +524,6 @@
       "hasGuide": true,
       "downloads": [
         {
-          "name": "Project/Website",
-          "type": "Link",
-          "size": "",
-          "icon": "🔗",
-          "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
-          "note": ""
-        },
-        {
           "name": "Render Distance Limiter",
           "type": "Link",
           "size": "",
@@ -555,16 +547,7 @@
       "views": "2108",
       "date": "2026-03-25",
       "hasGuide": true,
-      "downloads": [
-        {
-          "name": "Project Page",
-          "type": "Link",
-          "size": "",
-          "icon": "🔗",
-          "url": "https://vrijesh-bhau.github.io/Not-Gaming-PLayz/",
-          "note": ""
-        }
-      ]
+      "downloads": []
     },
     {
       "id": "video-23",
