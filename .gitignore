@@ -1,0 +1,13 @@
+# The Telegram relay source stays OUT of the public repo.
+# It is deployed from the Google Apps Script editor directly, and the
+# deployment needs the real bot token / chat id / GitHub token which live
+# in Script Properties (never in code). Keeping the file here public would
+# only invite abuse - the live deployment URL is what matters.
+google_apps_script.js
+
+# local scratch
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.local

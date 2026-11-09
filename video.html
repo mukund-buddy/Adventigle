@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://i.ytimg.com https://www.ytimg.com https://*.ytimg.com https://www.gstatic.com https://translate.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://translate.googleapis.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline' https://translate.google.com https://translate.googleapis.com https://translate.gstatic.com https://www.gstatic.com https://www.youtube.com https://s.ytimg.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://translate.google.com https://translate.googleapis.com; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://translate.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self' https://script.google.com https://script.googleusercontent.com; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://i.ytimg.com https://www.ytimg.com https://*.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline' https://www.youtube.com https://s.ytimg.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://translate.googleapis.com; object-src 'none'; base-uri 'self'; form-action 'self' https://script.google.com https://script.googleusercontent.com; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Watch — Adventigle</title>
   <meta name="description" content="Watch the video, grab the downloads, read the topic breakdown, ask questions and leave a review — Adventigle.">
@@ -23,7 +23,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23ff90e8'/%3E%3Ctext x='50' y='68' font-size='48' text-anchor='middle'%3E%F0%9F%A6%85%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip_content">Skip to content</a>
 
   <header class="site-header" translate="no">
     <div class="header-inner">
@@ -69,20 +69,20 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="wordmark" translate="no">Adventigle</span>
-        <p class="small muted">Minecraft PE videos, UI &amp; texture packs, tips and free downloads by Mukund (<span translate="no">@notgamingplayz</span>).</p>
+        <p class="small muted" data-i18n="footer_brand_text">Minecraft PE videos, UI &amp; texture packs, tips and free downloads by Mukund (@notgamingplayz).</p>
       </div>
       <nav class="footer-nav" aria-label="Footer" translate="no">
         <ul>
           <li><a href="index.html#videos" data-i18n="nav_videos">Videos</a></li>
           <li><a href="about.html" data-i18n="nav_about">About</a></li>
-          <li><a href="#" id="footerLang">Language</a></li>
-          <li><a href="https://www.youtube.com/@notgamingplayz" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          <li><a href="#" id="footerLang" data-i18n="footer_nav_language">Language</a></li>
+          <li><a href="https://www.youtube.com/@notgamingplayz" target="_blank" rel="noopener noreferrer" data-i18n="footer_nav_youtube">YouTube</a></li>
           <li><a href="#shortcutsModal" id="footerShortcuts" data-open-shortcuts data-i18n="nav_shortcuts">Shortcuts</a></li>
         </ul>
       </nav>
     </div>
     <div class="container footer-bottom">
-      <p class="small muted">© 2026 <span translate="no">Adventigle</span>. Visual system adapted from the Gumroad open-source design system (MIT).</p>
+      <p class="small muted" data-i18n="footer_legal">© 2026 Adventigle. Visual system adapted from the Gumroad open-source design system (MIT).</p>
     </div>
   </footer>
 
@@ -105,109 +105,44 @@
   <div class="modal-scrim" id="shortcutsModal" role="dialog" aria-modal="true" aria-labelledby="shortcutsModalTitle">
     <div class="modal">
       <div class="modal-head">
-        <span class="modal-title" id="shortcutsModalTitle">Keyboard Shortcuts &amp; Creator Tools</span>
+        <span class="modal-title" id="shortcutsModalTitle" data-i18n="sc_title">Keyboard Shortcuts &amp; Creator Tools</span>
         <button class="close-btn" type="button" aria-label="Close shortcuts modal">✕</button>
       </div>
       <div class="modal-body">
         <table class="kbd-table">
           <thead>
             <tr>
-              <th>Key</th>
-              <th>Action</th>
+              <th data-i18n="sc_key">Key</th>
+              <th data-i18n="sc_action">Action</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td><kbd>?</kbd></td>
-              <td>Open / close this Shortcuts &amp; Creator Tools modal</td>
+              <td data-i18n="sc_row1">Open / close this Shortcuts &amp; Creator Tools modal</td>
             </tr>
             <tr>
               <td><kbd>/</kbd></td>
-              <td>Jump straight to the video search box on the homepage</td>
+              <td data-i18n="sc_row2">Jump straight to the video search box on the homepage</td>
             </tr>
             <tr>
               <td><kbd>L</kbd></td>
-              <td>Open the language picker modal</td>
+              <td data-i18n="sc_row3">Open the language picker modal</td>
             </tr>
             <tr>
               <td><kbd>1</kbd>–<kbd>9</kbd>, <kbd>0</kbd></td>
-              <td>Select language 1–10 while the language modal is open</td>
+              <td data-i18n="sc_row4">Select language 1–10 while the language modal is open (1 = Hinglish, 2 = English)</td>
             </tr>
             <tr>
               <td><kbd>Esc</kbd></td>
-              <td>Close any open modal or unfocus the search box</td>
+              <td data-i18n="sc_row5">Close any open modal or unfocus the search box</td>
             </tr>
           </tbody>
         </table>
-
-        <details class="creator-gen-wrap">
-          <summary>⚡ Creator Quick-Entry Generator (for GitHub index.json)</summary>
-          <p class="small muted" style="margin:.4rem 0 0;">Enter a new video's details below to generate the ready-to-paste JSON block for <code>content/videos/index.json</code> and exact Markdown guide filename.</p>
-          <form class="creator-gen-form" novalidate>
-            <div class="creator-gen-grid">
-              <div class="field" style="margin:0;">
-                <label for="v-gen-yt">YouTube URL or Video ID</label>
-                <input id="v-gen-yt" name="gen_yt" type="text" placeholder="https://youtu.be/Mvx-Y4RI-8Q">
-              </div>
-              <div class="field" style="margin:0;">
-                <label for="v-gen-cat">Category</label>
-                <select id="v-gen-cat" name="gen_cat">
-                  <option value="tips-tricks">Tips &amp; Tricks</option>
-                  <option value="texture-packs">Texture Packs</option>
-                  <option value="ui-packs">UI Packs</option>
-                  <option value="bg-music">BG Music</option>
-                </select>
-              </div>
-            </div>
-            <div class="creator-gen-grid">
-              <div class="field" style="margin:0;">
-                <label for="v-gen-title">Video Title</label>
-                <input id="v-gen-title" name="gen_title" type="text" placeholder="Feather Client for MCPE 1.21">
-              </div>
-              <div class="field" style="margin:0;">
-                <label for="v-gen-dur">Duration</label>
-                <input id="v-gen-dur" name="gen_dur" type="text" placeholder="1m 45s">
-              </div>
-            </div>
-            <div class="creator-gen-grid">
-              <div class="field" style="margin:0;">
-                <label for="v-gen-dl-name">Download Label (optional)</label>
-                <input id="v-gen-dl-name" name="gen_dl_name" type="text" placeholder="Direct Download">
-              </div>
-              <div class="field" style="margin:0;">
-                <label for="v-gen-dl-url">Download URL (https://)</label>
-                <input id="v-gen-dl-url" name="gen_dl_url" type="url" placeholder="https://not-gaming-playz.pages.dev/...">
-              </div>
-            </div>
-            <div class="field" style="margin:0;">
-              <label for="v-gen-desc">Short Summary / Description</label>
-              <input id="v-gen-desc" name="gen_desc" type="text" placeholder="Step-by-step setup and download guide...">
-            </div>
-          </form>
-          <div class="creator-gen-out md-body">
-            <p class="small" style="margin:0 0 .35rem;"><strong>1. Create Markdown Guide file on GitHub:</strong> <code class="gen-slug-file">content/videos/video.md</code></p>
-            <p class="small" style="margin:0;"><strong>2. Paste this object at the top of <code>videos</code> array in <code>content/videos/index.json</code>:</strong></p>
-            <pre><code class="gen-json-code"></code></pre>
-          </div>
-        </details>
-      </div>
+</div>
     </div>
   </div>
 
-  <div id="google_translate_element" style="display:none" aria-hidden="true"></div>
-
   <script src="assets/js/app.js"></script>
-  <script>
-    window.googleTranslateElementInit = function () {
-      if (typeof google === "undefined" || !google.translate) return;
-      new google.translate.TranslateElement({
-        pageLanguage: "en",
-        includedLanguages: "en,hi,es,fr,de,ja,pt,id,ru,ar",
-        autoDisplay: false,
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, "google_translate_element");
-    };
-  </script>
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
 </body>
 </html>

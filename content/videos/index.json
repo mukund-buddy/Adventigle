@@ -2,8 +2,96 @@
   "channel": "NotGamingPlayz",
   "handle": "@notgamingplayz",
   "creator": "Mukund",
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "videos": [
+    {
+      "id": "video-40",
+      "slug": "ramayana-rise-of-a-legend-trailer-but-its-minecraft",
+      "youtubeId": "2bIoc8muvHQ",
+      "title": "Ramayana: Rise of a Legend Trailer — But It's MINECRAFT!",
+      "topic": "Ramayana ka cinematic trailer, lekin poora Minecraft PE mein bana hua.",
+      "description": "Is video mein Ramayana ke \"Rise of a Legend\" trailer ka Minecraft PE version dikhaya gaya hai — epic cutscenes, cinematic shots aur Ramayan ka iconic story, Minecraft ke blocks aur visuals ke saath. Ye ek fan-made cinematic trailer hai, isliye exact scenes, mods aur timing original trailer se alag ho sakti hain. Agar aapko trailer ka official release ya download link chahiye to video description me diye gaye official source ko follow karo.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [
+        "ramayana",
+        "trailer",
+        "cinematic",
+        "minecraft pe"
+      ],
+      "duration": "2m 03s",
+      "views": "24",
+      "date": "2026-11-08",
+      "watchUrl": "https://www.youtube.com/watch?v=2bIoc8muvHQ",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-41",
+      "slug": "enable-achievements-in-any-world-mobile-and-pc",
+      "youtubeId": "gYgDD7a_syA",
+      "title": "Enable Achievements in Any World (Mobile & PC)",
+      "topic": "Minecraft Bedrock mein kisi bhi world mein achievements kaise on karein.",
+      "description": "Minecraft Bedrock mein achievements har world me automatically enable nahi hote — kuch worlds me aapko \"Achievements cannot be earned in this world\" message milta hai. Is video mein mobile aur PC dono ke liye step-by-step tareeka dikhaya gaya hai jisse aap achievements ko wapas enable kar sakte ho. Har world ka file structure alag hota hai, isliye is method ka result aapke world state aur version par depend karega.",
+      "category": "tips-tricks",
+      "categoryLabel": "Tips & Tricks",
+      "keywords": [
+        "achievements",
+        "bedrock",
+        "world",
+        "enable"
+      ],
+      "duration": "2m 36s",
+      "views": "14",
+      "date": "2026-11-05",
+      "watchUrl": "https://www.youtube.com/watch?v=gYgDD7a_syA",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-42",
+      "slug": "can-gemini-ai-code-a-custom-minecraft-bedrock-ui",
+      "youtubeId": "LoyKkkFnEPY",
+      "title": "Can Gemini AI Code a Custom Minecraft Bedrock UI?",
+      "topic": "Gemini AI se Minecraft Bedrock ka custom UI pack code karwa sakte hain ya nahi.",
+      "description": "Is video mein dekha gaya hai ki Google Gemini AI Minecraft Bedrock ke liye custom UI pack likh sakta hai ya nahi — prompt likhna, code generate karna, usse resource pack me convert karna aur game me import karna. Ye ek experiment hai, isliye generated code ka har version pe kaam karna guaranteed nahi hai. Aap apne UI idea ke saath try kar sakte ho, par har baar output ko carefully test karna zaroori hai.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [
+        "gemini ai",
+        "ui pack",
+        "ai",
+        "bedrock"
+      ],
+      "duration": "3m 01s",
+      "views": "10",
+      "date": "2026-10-31",
+      "watchUrl": "https://www.youtube.com/watch?v=LoyKkkFnEPY",
+      "hasGuide": true,
+      "downloads": []
+    },
+    {
+      "id": "video-43",
+      "slug": "design-own-animated-start-screen-minecraft-bedrock",
+      "youtubeId": "wVW2lrSdcMc",
+      "title": "Design Own Animated Start Screen Minecraft Bedrock || latest version",
+      "topic": "Minecraft Bedrock ke liye apna animated start screen design karna.",
+      "description": "Minecraft Bedrock ka apna animated start screen banana sikhao gaya hai — screen ka layout, color scheme, logo aur animation frames set karke apni design build karna, phir usse pack ke roop me import karke game me activate karna. Is video me latest Bedrock versions ka workflow cover kiya gaya hai. Exact menu layout aapke game version par depend karta hai, isliye agar kuch button na dikhe to version check kar lena.",
+      "category": "ui-packs",
+      "categoryLabel": "UI Packs",
+      "keywords": [
+        "start screen",
+        "animated ui",
+        "bedrock",
+        "design"
+      ],
+      "duration": "2m 40s",
+      "views": "49",
+      "date": "2026-10-27",
+      "watchUrl": "https://www.youtube.com/watch?v=wVW2lrSdcMc",
+      "hasGuide": true,
+      "downloads": []
+    },
     {
       "id": "video-39",
       "slug": "linkvertise-bypass-directgrab-se-direct-link-kaise-nikalein",
@@ -1000,5 +1088,6 @@
         }
       ]
     }
-  ]
+  ],
+  "videoCount": 43
 }
