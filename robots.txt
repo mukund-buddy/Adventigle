@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mukund-buddy.github.io/Adventigle/sitemap.xml
