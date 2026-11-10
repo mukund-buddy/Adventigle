@@ -50,15 +50,10 @@ Adventigle/
 │       └── <slug>.md              43 slug-named Markdown guides (e.g. feather-client-of-mcpe.md)
 ├── tools/
 │   └── creator-quick-entry.html   Standalone OFFLINE generator for new video entries (not part of the site)
-├── RELAY-SETUP.md                  Step-by-step relay setup guide (secrets, deploy, approve buttons)
-├── google_apps_script.js          Relay v3: Telegram alerts + inline Approve/Reject buttons, shared-secret
-│                                  auth, server-side rate limiting, replay guard, spam traps, optional
-│                                  auto-commit of approved reviews to GitHub + Sheet logging
 ├── sitemap.xml                    45 URLs: index.html, about.html, and all 43 video.html?v=<slug> pages
 ├── robots.txt                     Crawler directives + sitemap pointer
 ├── _headers                       HTTP security headers for Cloudflare/Netlify hosts
 ├── og.png                         Social Open Graph preview image
-├── OWNER-MANUAL.md                Step-by-step Hinglish manual for GitHub-only maintenance
 ├── shortcuts.md                   Keyboard shortcut reference notes
 ├── LICENSE                        All rights reserved
 └── README.md                      Technical documentation
