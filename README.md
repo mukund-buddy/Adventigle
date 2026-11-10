@@ -3,7 +3,7 @@
 The official **100% static, zero-backend** self-serve community platform for YouTube creator **Mukund ([@notgamingplayz](https://www.youtube.com/@notgamingplayz) & [@adventigle](https://www.youtube.com/@adventigle))** — featuring a 43-video Minecraft PE / Bedrock vault, slug-based Markdown step-by-step guides, tested direct downloads, verified community reviews, a **Hinglish-first 11-language UI** (Hinglish default, zero-translation; 10 more languages on click), keyboard shortcuts, a standalone offline JSON entry generator, and a Telegram relay with 1-tap Gmail replies.
 
 > **Live site:** <https://mukund-buddy.github.io/Adventigle/>
-> **Owner guide (Hinglish):** [OWNER-MANUAL.md](./OWNER-MANUAL.md)
+> **Owner guide (Hinglish):** `OWNER-MANUAL.md` (owner-only, kept local - not published)
 > **License:** All rights reserved — see [LICENSE](./LICENSE).
 
 ---
@@ -73,7 +73,7 @@ Adventigle/
 
 ## 5. Adding a Video or Approving a Review
 
-See **[OWNER-MANUAL.md](./OWNER-MANUAL.md)** for the complete Hinglish walkthrough:
+The owner-only `OWNER-MANUAL.md` (kept local, not published) has the complete Hinglish walkthrough:
 
 1. **Add a Video in 2 Steps**: Open the standalone offline generator `tools/creator-quick-entry.html`, copy the generated JSON into `content/videos/index.json`, and create the `content/videos/<slug>.md` guide file.
 2. **Approve a Review in 10 Seconds**: Copy the `<pre>` JSON block from the Telegram bot notification and paste it into `content/reviews.json`.

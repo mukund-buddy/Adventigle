@@ -1263,16 +1263,30 @@ var LANG_NEEDS_TRANSLATION = {
 };
 
 /* Google Translate target codes (Hinglish maps to nothing: it is the source).
-   The SOURCE language is pinned per target on purpose:
-   with sl=auto Google detects the whole batch as one language, and because the
-   content is Hinglish (Roman Hindi) it often returns the input unchanged for
-   tl=hi. Pinning the source removes that ambiguity.
-   - to Hindi we use sl=en so the Roman Hinglish is rendered in Devanagari.
-   - every other target uses sl=hi, the actual source language of the content. */
+ *
+ * SOURCE LANGUAGE
+ *   The content is Hinglish - Hindi written with Latin (English) alphabets.
+ *   With sl=auto Google read that as plain English and produced wrong output
+ *   ("UUID जेनरेटर को ठीक करो" instead of "...से फिक्स करो").
+ *   "hi-Latn" is the real BCP-47 tag for "Hindi in Latin script", i.e. exactly
+ *   Hinglish, so it is pinned as the source for every target.
+ *
+ * HINDI (Devanagari) USES A TWO-STEP PIPELINE
+ *   Translating hi-Latn -> hi directly returns the Roman text unchanged
+ *   (same language, same script). To get Devanagari we go
+ *   hi-Latn -> en -> hi, which also produces better Hindi because the
+ *   English step resolves the Hinglish grammar first.
+ */
 var LANG_GT_SOURCE = {
-  en: "hi", hi: "en", es: "hi", fr: "hi", de: "hi",
-  ja: "hi", pt: "hi", id: "hi", ru: "hi", ar: "hi"
+  en: "hi-Latn", hi: "hi-Latn", es: "hi-Latn", fr: "hi-Latn", de: "hi-Latn",
+  ja: "hi-Latn", pt: "hi-Latn", id: "hi-Latn", ru: "hi-Latn", ar: "hi-Latn"
 };
+
+/* Targets that need the extra English bridge to reach Devanagari. */
+var LANG_GT_NEEDS_EN_BRIDGE = {
+  en: false, hi: true, es: false, fr: false, de: false,
+  ja: false, pt: false, id: false, ru: false, ar: false
+};;
 
 var CURRENT_LANG = DEFAULT_LANG;
 
@@ -1354,8 +1368,16 @@ function tNum(key, n) {
    translation, results are cached in localStorage per language, and
    failures fall back to the original source text (never blank). */
 var TRANSLATE_ENDPOINT = "https://translate.googleapis.com/translate_a/single";
-var TRANSLATE_SEP = "\n\n[[[___SEP___]]]\n\n";
-var TRANSLATE_SEP_TOKEN = "[[[___SEP___]]]";
+/* A random separator token per request.
+   A fixed token like "[[[___SEP___]]]" gets "corrected" by Google into
+   "[[[___SET___]]]" (it reads SEP as a typo), which silently breaks every
+   batch split and forces one request per string. A random token cannot be
+   corrected, so batches survive intact - one request for 43 titles.
+   Format: newline + newline + token + newline + newline. */
+function translateSeparator() {
+  var r = Math.random().toString(36).slice(2, 10);
+  return "[[[" + r + "]]]";
+}
 var TRANSLATE_CACHE_PREFIX = "adventigle:mt2:";
 var translateCache = {};
 var translateInFlight = {};
@@ -1363,8 +1385,10 @@ var translateInFlight = {};
 function translateCacheKey(code, text) {
   var h = 5381, i = text.length;
   while (i) h = (h * 33) ^ text.charCodeAt(--i);
-  var source = LANG_GT_SOURCE[code] || "hi";
-  return source + ">" + code + "|" + ((h >>> 0).toString(36)) + "|" + text.length;
+  var source = LANG_GT_SOURCE[code] || "hi-Latn";
+  var bridge = LANG_GT_NEEDS_EN_BRIDGE[code] ? "2step" : "1step";
+  return source + ">" + code + "|" + bridge + "|" +
+         ((h >>> 0).toString(36)) + "|" + text.length;
 }
 
 function readTranslateCache(code) {
@@ -1384,8 +1408,8 @@ function writeTranslateCache(code) {
   } catch (e) { /* quota — ignore */ }
 }
 
-function gtRequest(code, text) {
-  var source = LANG_GT_SOURCE[code] || "hi";
+function gtRequest(code, text, sourceOverride) {
+  var source = sourceOverride || LANG_GT_SOURCE[code] || "hi-Latn";
   var url = TRANSLATE_ENDPOINT +
     "?client=gtx&sl=" + encodeURIComponent(source) +
     "&tl=" + encodeURIComponent(code) + "&dt=t&q=" + encodeURIComponent(text);
@@ -1463,30 +1487,131 @@ function translateStrings(code, texts) {
 }
 
 /* Translate one chunk of strings. Returns { sourceText: translatedText }. */
-function translateChunk(code, chunk) {
-  var joined = chunk.join(TRANSLATE_SEP);
-  return gtRequest(code, joined).then(function (text) {
-    var parts = text.split(TRANSLATE_SEP_TOKEN);
-    if (parts.length === chunk.length) {
-      var results = {};
-      chunk.forEach(function (src, i) { results[src] = parts[i].trim(); });
-      return results;
-    }
-    // Separator got mangled - fall back to one request per string
-    var results2 = {};
-    return chunk.reduce(function (p, src) {
-      return p.then(function () {
-        return gtRequest(code, src)
-          .then(function (t2) { results2[src] = t2; })
-          .catch(function () { results2[src] = src; });
-      });
-    }, Promise.resolve()).then(function () { return results2; });
-  }).catch(function (err) {
-    console.warn("Adventigle translation failed for", code, err);
-    var results3 = {};
-    chunk.forEach(function (src) { results3[src] = src; });
-    return results3;
+/* Protect code from translation.
+ *
+ * A command like "/gamerule commandblockoutput false" must survive
+ * untouched - translating it to Spanish produced
+ * "/gamerule salida del bloque de comando falsa", which is not a valid
+ * Minecraft command anymore. Fenced blocks, inline code and link URLs
+ * are swapped for placeholders before translation and restored after. */
+function splitProtectedCode(md) {
+  var codes = [];
+  var urls = [];
+  var text = String(md == null ? "" : md);
+
+  /* Fenced code blocks first (``` ... ```), including an optional
+     language tag like ```text. */
+  text = text.replace(/```[\s\S]*?```/g, function (m) {
+    codes.push(m);
+    return translateCodeToken(codes.length);
   });
+  // inline `code` (single backticks, no newlines)
+  text = text.replace(/`[^`\n]+`/g, function (m) {
+    codes.push(m);
+    return translateCodeToken(codes.length);
+  });
+  // markdown links: translate the label, keep the URL
+  text = text.replace(/\[([^\]\n]+)\]\((https?:\/\/[^)\s]+)\)/g, function (m, label, url) {
+    urls.push(url);
+    return "[" + label + "](" + translateUrlToken(urls.length) + ")";
+  });
+
+  return { text: text, codes: codes, urls: urls };
+}
+
+/* Digit-only placeholder tokens.
+ * Google Translate rewrites letters ("CODE" became "CÓDIGO"), strips NUL
+ * bytes and mangles nested brackets ("[[[1004]]]" became "[[1004]]]").
+ * A bare digit run survives untouched, and the prefix keeps it from ever
+ * colliding with real content. */
+var TRANSLATE_CODE_TOKEN_PREFIX = "7401";
+var TRANSLATE_URL_TOKEN_PREFIX = "8402";
+
+function translateCodeToken(index) {
+  return TRANSLATE_CODE_TOKEN_PREFIX + String(index);
+}
+
+function translateUrlToken(index) {
+  return TRANSLATE_URL_TOKEN_PREFIX + String(index);
+}
+
+/* Restore protected parts after translation. */
+function restoreProtectedCode(text, blocks) {
+  var out = String(text == null ? "" : text);
+  var codeRe = new RegExp(TRANSLATE_CODE_TOKEN_PREFIX + "(\\d+)", "g");
+  out = out.replace(codeRe, function (m, num) {
+    var v = blocks.codes[Number(num) - 1];
+    return v !== undefined ? v : m;
+  });
+  var urlRe = new RegExp(TRANSLATE_URL_TOKEN_PREFIX + "(\\d+)", "g");
+  out = out.replace(urlRe, function (m, num) {
+    var v = blocks.urls[Number(num) - 1];
+    return v !== undefined ? v : m;
+  });
+  return out;
+}
+function translateChunk(code, chunk) {
+  var run = function (text, source, sep) {
+    return gtRequest(code, text, source).then(function (out) {
+      return out.split(sep);
+    });
+  };
+
+  /* One request for the whole batch, with a fresh random separator.
+     If the separator still gets mangled, retry once with another one,
+     and only then fall back to one request per string. */
+  var attempt = function (triesLeft) {
+    var sep = translateSeparator();
+    var joined = chunk.join("\n\n" + sep + "\n\n");
+    return run(joined, undefined, sep).then(function (parts) {
+      if (parts.length === chunk.length) {
+        var results = {};
+        chunk.forEach(function (src, i) { results[src] = parts[i].trim(); });
+        return results;
+      }
+      if (triesLeft > 0) return attempt(triesLeft - 1);
+
+      // Separator got mangled - fall back to one request per string
+      var results2 = {};
+      return chunk.reduce(function (p, src) {
+        return p.then(function () {
+          return gtRequest(code, src)
+            .then(function (t2) { results2[src] = t2; })
+            .catch(function () { results2[src] = src; });
+        });
+      }, Promise.resolve()).then(function () { return results2; });
+    });
+  };
+
+  var direct = function () {
+    return attempt(1).catch(function (err) {
+      console.warn("Adventigle translation failed for", code, err);
+      var results3 = {};
+      chunk.forEach(function (src) { results3[src] = src; });
+      return results3;
+    });
+  };
+
+  // Hindi needs Devanagari: bridge through English first.
+  if (LANG_GT_NEEDS_EN_BRIDGE[code]) {
+    return direct().then(function (latinResults) {
+      var latinChunk = chunk.map(function (src) { return latinResults[src] || src; });
+      var sep = translateSeparator();
+      return run(latinChunk.join("\n\n" + sep + "\n\n"), "en", sep).then(function (devParts) {
+        var out = {};
+        chunk.forEach(function (src, i) {
+          out[src] = (devParts.length === chunk.length
+            ? devParts[i]
+            : (latinResults[src] || src)).trim();
+        });
+        return out;
+      }).catch(function () {
+        return latinResults;   // keep the Latin fallback if the bridge fails
+      });
+    });
+  }
+
+  return direct();
 }
 
 function applyTranslations(code, uniq, results, missingIdx, out) {
@@ -2236,6 +2361,7 @@ function initIndexPage() {
   var catalog = [];
   var query = "";
   var titleMap = {};
+  var titleToken = 0;
 
   function cardHtml(v) {
     var durBadge = v.duration ? '<span class="duration-badge">' + esc(v.duration) + "</span>" : "";
@@ -2267,19 +2393,25 @@ function initIndexPage() {
 
   /* Translate every video title on the page in one batch, then re-render. */
   function translateTitles() {
-    if (!LANG_NEEDS_TRANSLATION[CURRENT_LANG] || !catalog.length) {
-      titleMap = {};
-      renderGrid();
-      return Promise.resolve();
-    }
-    var titles = catalog.map(function (v) { return v.title; });
-    return translateStrings(CURRENT_LANG, titles).then(function (arr) {
-      var map = {};
-      arr.forEach(function (tr, i) { map[catalog[i].title] = tr; });
-      titleMap = map;
-      renderGrid();
-    });
+  /* Rapid language switching starts several translations at once. Their
+     results can arrive out of order, so an older language would overwrite
+     the newer one. The token makes sure only the latest result is used. */
+  var token = ++titleToken;
+  if (!LANG_NEEDS_TRANSLATION[CURRENT_LANG] || !catalog.length) {
+    titleMap = {};
+    renderGrid();
+    return Promise.resolve();
   }
+  var lang = CURRENT_LANG;
+  var titles = catalog.map(function (v) { return v.title; });
+  return translateStrings(lang, titles).then(function (arr) {
+    if (token !== titleToken) return;   // a newer language was requested
+    var map = {};
+    arr.forEach(function (tr, i) { map[catalog[i].title] = tr; });
+    titleMap = map;
+    renderGrid();
+  });
+}
 
   wireQuestionForm($("#question-form"), { videoId: "general", videoSlug: "general", videoTitle: "General question" });
 
@@ -2585,9 +2717,15 @@ function initVideoPage() {
         var box = $("#guideBlock");
         if (!box || token !== renderToken) return;
         var cleanedMd = cleanGuideMarkdown(text, data);
-        var mdPromise = LANG_NEEDS_TRANSLATION[CURRENT_LANG]
-          ? translateText(CURRENT_LANG, cleanedMd)
-          : Promise.resolve(cleanedMd);
+        var mdPromise;
+        if (LANG_NEEDS_TRANSLATION[CURRENT_LANG]) {
+          var protectedMd = splitProtectedCode(cleanedMd);
+          mdPromise = translateText(CURRENT_LANG, protectedMd.text).then(function (translated) {
+            return restoreProtectedCode(translated, protectedMd);
+          });
+        } else {
+          mdPromise = Promise.resolve(cleanedMd);
+        }
         return mdPromise.then(function (md) {
           if (token !== renderToken) return;
           box.innerHTML = "<h2>" + esc(t("vp_guide_title")) + '</h2><div class="md-body">' + parseMarkdown(md) + "</div>";
