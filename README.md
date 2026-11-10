@@ -84,15 +84,3 @@ See **[OWNER-MANUAL.md](./OWNER-MANUAL.md)** for the complete Hinglish walkthrou
 2. **Approve a Review in 10 Seconds**: Copy the `<pre>` JSON block from the Telegram bot notification and paste it into `content/reviews.json`.
 
 ---
-
-## 6. Local Preview
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000> in your browser.
-
----
-
-*Built for Mukund ([@notgamingplayz](https://www.youtube.com/@notgamingplayz)) — Adventigle. © 2026 All rights reserved.*
